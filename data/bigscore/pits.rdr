@@ -1,0 +1,298 @@
+
+// PITS 
+
+// ======================SIJALICE========================
+
+
+
+#pit {
+  out "pit_sijalica_54_down" 
+  in  "sijalica_54_down"  
+}
+
+#pit {
+  out "pit_sijalica_55_down" 
+  in  "sijalica_55_down"  
+}
+
+#pit {
+  out "pit_sijalica_44_down" 
+  in  "sijalica_544_down"  
+}
+
+#pit {
+  out "pit_sijalica_49_down"  
+  in  "sijalica_49_down"  
+}
+
+#pit {
+  out "pit_sijalica_44_down" 
+  in  "sijalica_544_down"  
+}
+
+#pit {
+  out "pit_sijalica_49_down"  
+  in  "sijalica_49_down"  
+}
+
+#pit {
+  out "pit_sijalica_24_down"  
+  in  "sijalica_26_down"  
+}
+
+#pit {
+  out "pit_sijalica_26_down"  
+  in  "sijalica_26_down"  
+}
+
+#pit {
+  out "pit_sijalica_27_down"  
+  in  "sijalica_27_down"  
+}
+
+#pit {
+  out "pit_sijalica_28_down"  
+  in  "sijalica_28_down"  
+}
+
+#pit {
+  out "pit_sijalica_29_down"  
+  in  "sijalica_29_down"  
+}
+
+#pit {
+  out "pit_sijalica_30_down"  
+  in  "sijalica_30_down"  
+}
+
+#pit {
+  out "pit_sijalica_31_down"  
+  in  "sijalica_31_down"  
+}
+
+#pit {
+  out "pit_sijalica_32_down"  
+  in  "sijalica_32_down"  
+}
+
+#pit {
+  out "pit_sijalica_33_down"  
+  in  "sijalica_33_down"  
+}
+
+#pit {
+  out "pit_sijalica_37_down"  
+  in  "sijalica_37_down"  
+}
+
+#pit {
+  out "pit_sijalica_38_down"  
+  in  "sijalica_38_down"  
+}
+
+#pit {
+  out "pit_sijalica_39_down"  
+  in  "sijalica_39_down"  
+}
+
+#pit {
+  out "pit_sijalica_40_down"  
+  in  "sijalica_40_down"  
+}
+
+#pit {
+  out "pit_sijalica_44_down"  
+  in  "sijalica_44_down"  
+}
+
+#pit {
+  out "pit_sijalica_48_down"  
+  in  "sijalica_48_down"  
+}
+
+#pit {
+  out "pit_sijalica_49_down"  
+  in  "sijalica_49_down"  
+}
+
+#pit {
+  out "pit_sijalica_50_down"  
+  in  "sijalica_50_down"  
+}
+
+#pit {
+  out "pit_sijalica_51_down"  
+  in  "sijalica_51_down"  
+}
+
+#pit {
+  out "pit_sijalica_52_down"  
+  in  "sijalica_52_down"  
+}
+
+#pit {
+  out "pit_sijalica_54_down"  
+  in  "sijalica_54_down"  
+}
+
+#pit {
+  out "pit_sijalica_55_down"  
+  in  "sijalica_55_down"  
+}
+
+#pit {
+  out "pit_sijalica_56_down"  
+  in  "sijalica_56_down"  
+}
+// ======================UDARACI&SENZORI==================
+
+#pit {
+  out "pit_udarac_gumicaL"
+  in  "udarac_gumicaL" 
+}
+
+#pit {
+  out "pit_udarac_gumicaD"
+  in  "udarac_gumicaD" 
+}
+
+
+#pit {
+  out "pit_senzori_gumice01"
+  in  "senzori_gumice01_down" 
+}
+
+#pit {
+  out "pit_senzori_gumice02"
+  in  "senzori_gumice02_down" 
+}
+
+
+#pit {
+  out "pit_senzori_gumice03"
+  in  "senzori_gumice03_down" 
+}
+
+#pit {
+  out "pit_senzori_gumice04"
+  in  "senzori_gumice04_down" 
+}
+
+#pit {
+  out "pit_senzori_gumice05"
+  in  "senzori_gumice05_down" 
+}
+
+
+#pit {
+  out "pit_senzori_gumice06"
+  in  "senzori_gumice06_down" 
+}
+
+#pit {
+  out "pit_senzori_gumice07"
+  in  "senzori_gumice07_down" 
+}
+
+#pit {
+  out "pit_senzori_gumice08"
+  in  "senzori_gumice08_down" 
+}
+
+#pit {
+  out "pit_senzori_gumice09"
+  in  "senzori_gumice09_down"    
+}
+
+// ======================TARGETS======================
+
+#pit {
+  out "pit_target_key_k"  
+  in  "target_key_k_down"  
+}
+
+#pit {
+  out "pit_target_key_e"  
+  in  "target_key_e_down"   
+}
+
+#pit {
+  out "pit_target_key_y"  
+  in  "target_key_y_down"   
+}
+
+#pit {  
+  out "pit_target_left_ramp"   
+  in "target_left_ramp_down"   
+}
+
+#pit {  
+  out "pit_target_right_ramp"   
+  in "target_right_ramp_down"    
+}
+
+#pit {  
+  out "pit_target_right_loop"   
+  in "target_right_loop_down"    
+}
+
+#pit {  
+  out "pit_target_left_loop"      
+  in "target_left_loop_down"   
+}
+
+#pit {   
+  out "pit_target_small_5"   
+  in "target_small_5_down"   
+}
+
+#pit {   
+  out "pit_target_small_4"   
+  in "target_small_4_down"   
+}
+
+#pit {  
+  out "pit_target_small_3"   
+  in "target_small_3_down"   
+}
+
+#pit {  
+  out "pit_target_small_2"   
+  in "target_small_2_down"   
+}  
+
+#pit {  
+  out "pit_target_small_1"   
+  in "target_small_1_down"   
+}  
+        
+
+// ========================================================
+// SAMO DOVDE:) OVO DALJE NEMOJ RADITI KAO RUPE....
+ 
+ 
+#pit {
+  out "wheel_down" 
+}
+   
+#pit {
+  out "hole_kicker_startmode_down" 
+}
+
+#pit {
+  out "wheel_down"  
+}
+ 
+#pit {
+  in "target_bank_b_down" 
+}
+#pit {
+  in "target_bank_a_down" 
+}
+#pit {
+  in "target_bank_n_down" 
+}
+#pit {
+  in "target_bank_k_down"   
+} 
+  

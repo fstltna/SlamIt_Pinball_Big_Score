@@ -1,0 +1,70 @@
+<html>
+<style type="text/css">
+<!--
+.item_top {
+	background-color: #331100;_33 #33110033 #33110033 #33110033; 
+	border-color: #FF9900 #FF9900 #FF9900 #FF9900; 
+	border-style: solid; 
+	border-top-width: 2px; 
+	border-right-width: 2px; 
+	border-bottom-width: 2px; 
+	border-left-width: 2px;
+	font-family: ozone;
+	font-size: 36px;	
+	color: #FF9900;	
+}
+.item {
+	background-color: #333300;_33 #33330033 #33330033 #33330033; 
+	border-color: #FFCC00 #FFCC00 #FFCC00 #FFCC00; 
+	border-style: solid; 
+	border-top-width: 2px; 
+	border-right-width: 2px; 
+	border-bottom-width: 2px; 
+	border-left-width: 2px;
+	font-family: ozone;
+	font-size: 36px;	
+	color: #FFCC00;	
+}
+.item_over {
+	background-color: #555500;_11 #55550011 #55550011 #55550011; 
+	border-color: #FFEE55 #FFEE55 #FFEE55 #FFEE55; 
+	border-style: solid; 
+	border-top-width: 2px; 
+	border-right-width: 2px; 
+	border-bottom-width: 2px; 
+	border-left-width: 2px;
+	font-family: ozone;
+	font-size: 36px;	
+	color: #FFEE55;	
+}
+-->
+</style>
+<body>
+<table name="Menu" width="350" border="0" align="center" cellpadding="0" cellspacing="5">
+  <tr> 
+    <td class="item_top" height=50 align="center">MAIN MENU</td>
+  </tr>
+  <tr> 
+    <td class="item" height=50 align="center" name="Option1" id="start_game" onover="this.className='item_over'" onout="this.className='item'" ondown="OMenuPanel.StartGame()" >START GAME</td>
+  </tr>
+  <tr> 
+    <td class="item" height=50 align="center" name="Option3" id="language_bar" onover="this.className='item_over'" onout="this.className='item'">LANGUAGE: ENGLISH</td>
+  </tr>  
+  <tr> 
+    <td class="item" height=50 align="center" name="Option4" onover="this.className='item_over'" onout="this.className='item'" ondown="OMenuPanel.LoadMenu(instructions.htm)">INSTRUCTIONS</td>
+  </tr>
+  <tr> 
+    <td class="item" height=50 align="center" name="Option5" onover="this.className='item_over'" onout="this.className='item'" ondown="OMenuPanel.LoadMenu(optionsmenu.htm)">OPTIONS</td>
+  </tr>
+  <tr> 
+    <td class="item" height=50 align="center" name="Option6" onover="this.className='item_over'" onout="this.className='item'" ondown="OMenuPanel.LoadMenu(hiscores.htm)">HI SCORES</td>
+  </tr>
+  <tr> 
+    <td class="item" height=50 align="center" name="Option7" onover="this.className='item_over'" onout="this.className='item'" ondown="OMenuPanel.LoadMenu(credits.htm)">CREDITS</td>
+  </tr>
+  <tr>
+    <td class="item" height=50 align="center" name="Option8" onover="this.className='item_over'" onout="this.className='item'" ondown="OMenuPanel.LoadMenu(exitgame.htm)">EXIT GAME</td>
+  </tr>
+</table>
+</body>
+</html>

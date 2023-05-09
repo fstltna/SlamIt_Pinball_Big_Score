@@ -1,0 +1,2426 @@
+
+	
+
+//LCDMSG_BIGSCORE  
+#BIF {  
+
+  ID 1 
+  cw 1
+  ch 20      
+  map "anim/BIGSCORE.tga"
+     
+  ANIM { 
+    ID 0
+    loop 0
+    delay 83   
+    START repeat(0,19,1) END 	
+  }
+        
+}   
+
+//LCDMSG_BALL_LOCK
+#BIF {  
+
+  ID 2 
+  cw 1
+  ch 8      
+  map "anim/balllock.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,7,1) END	
+  }
+     
+}   
+
+//LCDMSG_BANK_CALL
+#BIF {  
+
+  ID 3 
+  cw 1
+  ch 8      
+  map "anim/bank2_dojava.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }
+     
+}   
+ 
+//LCDMSG_BIGSCORE_INGAME
+#BIF {  
+
+  ID 4
+  cw 1
+  ch 8      
+  map "anim/bigscore_ingame.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }
+     
+}   
+
+//LCDMSG_POLICE_CAR_THEFT_BUSTED
+#BIF {  
+
+  ID 5
+  cw 1
+  ch 8      
+  map "anim/modes/car_theft/car_busted.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }
+     
+}   
+
+//LCDMSG_THIEF_CAR_THEFT 
+#BIF {  
+
+  ID 6
+  cw 1
+  ch 8      
+  map "anim/modes/car_theft/cat.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }
+     
+}   
+
+//LCDMSG_CHASE_TWOCAR
+#BIF {  
+
+  ID 7 
+  cw 1
+  ch 27      
+  map "anim/chase.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,26,1) END	
+  }
+     
+}   
+
+//LCDMSG_CHECKING_SECURITY_SYSTEMS
+#BIF {  
+
+  ID 8
+  cw 1
+  ch 29      
+  map "anim/css.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,28,1) END	
+  }
+     
+}   
+
+//LCDMSG_DOLLARS_OVER
+#BIF {  
+
+  ID 9
+  cw 1
+  ch 8      
+  map "anim/dolari.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }
+     
+}   
+
+//LCDMSG_DOLLARS_UNDER
+#BIF {  
+
+  ID 10 
+  cw 1
+  ch 8      
+  map "anim/dolars.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }
+     
+}   
+
+
+//LCDMSG_HANDS_FULL_OF_MONEY 
+#BIF {  
+
+  ID 11
+  cw 1
+  ch 21      
+  map "anim/dolarwipe.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,20,1) END	
+  }
+     
+}   
+
+//LCDMSG_THIEF_EXTRABALL 
+#BIF {  
+
+  ID 12
+  cw 1
+  ch 8      
+  map "anim/extraballlopov.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }
+     
+}     
+
+ 
+//LCDMSG_POLICE_EXTRABALL
+#BIF {  
+
+  ID 13
+  cw 1
+  ch 28      
+  map "anim/extraballpolicaj.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,27,1) END	
+  }
+     
+}   
+
+//LCDMSG_GEARUP_GUN
+#BIF {  
+
+  ID 14
+  cw 1
+  ch 8      
+  map "anim/modes/gear_up/gearup_gun.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }
+     
+}   
+
+//LCDMSG_GEARUP_UZI
+#BIF {  
+
+  ID 15
+  cw 1
+  ch 8      
+  map "anim/modes/gear_up/gearup_uzi.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }
+     
+} 
+
+//LCDMSG_POLICE_GOODJOB
+#BIF {  
+
+  ID 16
+  cw 1
+  ch 33      
+  map "anim/hapsenje.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,32,1) END		
+  }
+     
+}    
+
+
+//LCDMSG_POLICE_CHASE_SUCCESS
+#BIF {  
+
+  ID 17
+  cw 1
+  ch 33      
+  map "anim/hapsenje_auto.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,32,1) END		
+  }
+     
+} 
+
+
+//LCDMSG_JACKPOT
+#BIF {  
+
+  ID 18
+  cw 1
+  ch 21      
+  map "anim/jackpot.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,20,1) END		
+  }
+     
+} 
+
+
+//LCDMSG_THIEF_BONUS
+#BIF {  
+
+  ID 19
+  cw 1
+  ch 18      
+  map "anim/lopov.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,17,1) END		
+  }
+     
+}
+ 
+
+//LCDMSG_THIEF_STREET
+#BIF {  
+
+  ID 20
+  cw 1
+  ch 20      
+  map "anim/lopovstreet.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,19,1) END		
+  }
+     
+}
+
+//LCDMSG_THIEF_STARTMODE
+#BIF {  
+
+  ID 21
+  cw 1
+  ch 6      
+  map "anim/modrupa_lopov.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_POLICE_STARTMODE
+#BIF {  
+
+  ID 22
+  cw 1
+  ch 6      
+  map "anim/modrupa_police.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_MULTIBALL
+#BIF {  
+
+  ID 23
+  cw 1
+  ch 6      
+  map "anim/multiball.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_HAND_ON_WHEEL
+#BIF {  
+
+  ID 24
+  cw 1
+  ch 6      
+  map "anim/sef.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_POLICE_BONUS
+#BIF {  
+
+  ID 25
+  cw 1
+  ch 6      
+  map "anim/sef_bonus.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_POLICE_SHOOTAGAIN
+#BIF {  
+
+  ID 26
+  cw 1
+  ch 6      
+  map "anim/sef_dranje.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_THIEF_GOODJOB
+#BIF {  
+
+  ID 27
+  cw 1
+  ch 6      
+  map "anim/sitankrimos.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_SHOOTING_PRACTICE
+#BIF {  
+
+  ID 28
+  cw 1
+  ch 6      
+  map "anim/streljana.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_SUPERJACK
+#BIF {  
+
+  ID 29
+  cw 1
+  ch 6      
+  map "anim/superjack.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_THIEF_STREET_ONECAR
+#BIF {  
+
+  ID 30
+  cw 1
+  ch 6      
+  map "anim/zoomlopov.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_POLICE_STREET_ONECAR
+#BIF {  
+
+  ID 31
+  cw 1
+  ch 6      
+  map "anim/zoompolicaj.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+
+
+
+
+//LCDMSG_BANK_B
+#BIF {  
+
+  ID 32
+  cw 1
+  ch 6      
+  map "anim/bank/b.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_BANK_A
+#BIF {  
+
+  ID 33
+  cw 1
+  ch 6      
+  map "anim/bank/a.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_BANK_N
+#BIF {  
+
+  ID 34
+  cw 1
+  ch 6      
+  map "anim/bank/n.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_BANK_K
+#BIF {  
+
+  ID 35
+  cw 1
+  ch 6      
+  map "anim/bank/k.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_COIN_B
+#BIF {  
+
+  ID 36
+  cw 1
+  ch 6      
+  map "anim/coin/b.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_COIN_I
+#BIF {  
+
+  ID 37
+  cw 1
+  ch 6      
+  map "anim/coin/i.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_COIN_G
+#BIF {  
+
+  ID 38
+  cw 1
+  ch 6      
+  map "anim/coin/g.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_COIN_S
+#BIF {  
+
+  ID 39
+  cw 1
+  ch 6      
+  map "anim/coin/s.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_COIN_C
+#BIF {  
+
+  ID 40
+  cw 1
+  ch 6      
+  map "anim/coin/c.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_COIN_O
+#BIF {  
+
+  ID 41
+  cw 1
+  ch 6      
+  map "anim/coin/o.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_COIN_R
+#BIF {  
+
+  ID 42
+  cw 1
+  ch 6      
+  map "anim/coin/r.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_COIN_E
+#BIF {  
+
+  ID 43
+  cw 1
+  ch 6      
+  map "anim/coin/e.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_WIPE_BOOM
+#BIF {  
+
+  ID 44
+  cw 1
+  ch 6      
+  map "anim/wipe/boom.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_WIPE_BOXA
+#BIF {  
+
+  ID 45
+  cw 1
+  ch 6      
+  map "anim/wipe/boxa.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_WIPE_BOXB
+#BIF {  
+
+  ID 46
+  cw 1
+  ch 6      
+  map "anim/wipe/boxb.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_WIPE_BOXC
+#BIF {  
+
+  ID 47
+  cw 1
+  ch 6      
+  map "anim/wipe/boxc.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_WIPE_BOXMOVE
+#BIF {  
+
+  ID 48
+  cw 1
+  ch 6      
+  map "anim/wipe/boxmove.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_WIPE_DOT
+#BIF {  
+
+  ID 49
+  cw 1
+  ch 6      
+  map "anim/wipe/dot.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_WIPE_LINE
+#BIF {  
+
+  ID 50
+  cw 1
+  ch 6      
+  map "anim/wipe/line.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_WIPE_STAR
+#BIF {  
+
+  ID 51
+  cw 1
+  ch 6      
+  map "anim/wipe/star.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_ROTO1
+#BIF {  
+
+  ID 52
+  cw 1
+  ch 6      
+  map "anim/roto1.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_ROTO2
+#BIF {  
+
+  ID 53
+  cw 1
+  ch 6      
+  map "anim/roto2.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_ROTO3
+#BIF {  
+
+  ID 54
+  cw 1
+  ch 6      
+  map "anim/roto3.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_BIGSCORE_B
+#BIF {  
+
+  ID 55
+  cw 1
+  ch 6      
+  map "anim/bigscore/b.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_BIGSCORE_I
+#BIF {  
+
+  ID 56
+  cw 1
+  ch 6      
+  map "anim/bigscore/i.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_BIGSCORE_G
+#BIF {  
+
+  ID 57
+  cw 1
+  ch 6      
+  map "anim/bigscore/g.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_BIGSCORE_S
+#BIF {  
+
+  ID 58
+  cw 1
+  ch 6      
+  map "anim/bigscore/s.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_BIGSCORE_C
+#BIF {  
+
+  ID 59
+  cw 1
+  ch 6      
+  map "anim/bigscore/c.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_BIGSCORE_O
+#BIF {  
+
+  ID 60
+  cw 1
+  ch 6      
+  map "anim/bigscore/o.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_BIGSCORE_R
+#BIF {  
+
+  ID 61
+  cw 1
+  ch 6      
+  map "anim/bigscore/r.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_BIGSCORE_E
+#BIF {  
+
+  ID 62
+  cw 1
+  ch 6      
+  map "anim/bigscore/e.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_SAFE_OPEN
+#BIF {  
+
+  ID 63
+  cw 1
+  ch 6      
+  map "anim/sefopen.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_FRAME_ANIM
+#BIF {  
+
+  ID 64
+  cw 1
+  ch 6      
+  map "anim/frames/animokvir.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_FRAME_DOLLAR
+#BIF {  
+
+  ID 65
+  cw 1
+  ch 6      
+  map "anim/frames/okvir01.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_FRAME_DOLLAR2
+#BIF {  
+
+  ID 66
+  cw 1
+  ch 6      
+  map "anim/frames/okvir02.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+//LCDMSG_CHOOSE_PLAYER_THIEF1
+#BIF {  
+
+  ID 67
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/lopova.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_CHOOSE_PLAYER_THIEF2
+#BIF {  
+
+  ID 68
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/lopovb.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+
+//LCDMSG_CHOOSE_PLAYER_POLICE1
+#BIF {  
+
+  ID 69
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/policea.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_CHOOSE_PLAYER_POLICE2
+#BIF {  
+
+  ID 70
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/policeb.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+
+//LCDMSG_CHOOSE_PLAYER_CHOOSE
+#BIF {  
+
+  ID 71
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/chose.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+
+//LCDMSG_MODE_SHOOTING_PRACTICE_TARGET
+#BIF {  
+
+  ID 72
+  cw 1
+  ch 6      
+  map "anim/modes/shooting_practice/meta.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_MODE_SHOOTING_PRACTICE_BACK
+#BIF {  
+
+  ID 73
+  cw 1
+  ch 6      
+  map "anim/modes/shooting_practice/shotback.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_TECHNETIUM_GAMES
+#BIF {  
+
+  ID 74
+  cw 1
+  ch 6      
+  map "anim/tg.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_CHOOSE_PLAYER_BACK
+#BIF {  
+
+  ID 75
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/choseall.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_CHOOSE_PLAYER_SELECT
+#BIF {  
+
+  ID 76
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/select.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+     
+}
+
+//LCDMSG_MINIMOD_BACK
+#BIF {  
+  ID 77
+  cw 1
+  ch 6      
+  map "anim/minimods/modback.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_MINIMOD_CALLS
+#BIF {  
+  ID 78
+  cw 1
+  ch 6      
+  map "anim/minimods/calls.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_MINIMOD_CHASE
+#BIF {  
+  ID 79
+  cw 1
+  ch 6      
+  map "anim/minimods/chase.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_MINIMOD_INOUT
+#BIF {  
+  ID 80
+  cw 1
+  ch 6      
+  map "anim/minimods/inout.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_MINIMOD_JAIL
+#BIF {  
+  ID 81
+  cw 1
+  ch 6      
+  map "anim/minimods/jail.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_MINIMOD_BANK
+#BIF {  
+  ID 82
+  cw 1
+  ch 6      
+  map "anim/minimods/bank.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_MINIMOD_MONEY
+#BIF {  
+  ID 83
+  cw 1
+  ch 6      
+  map "anim/minimods/money.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+
+//LCDMSG_MINIMOD_BOXING
+#BIF {  
+  ID 84
+  cw 1
+  ch 6      
+  map "anim/minimods/boxing.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_BANK_AWARDS
+#BIF {  
+  ID 85
+  cw 1
+  ch 6      
+  map "anim/bank_chroma.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_BIGSCORE_FONT
+#BIF {  
+  ID 86
+  cw 1
+  ch 6      
+  map "anim/bigscorefont.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_CALLS_POLICE
+#BIF {  
+  ID 87
+  cw 1
+  ch 6      
+  map "anim/calls_police.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_CALLS_THIEF
+#BIF {  
+  ID 88
+  cw 1
+  ch 6      
+  map "anim/calls_lopov.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_CRASH
+#BIF {  
+  ID 89
+  cw 1
+  ch 6      
+  map "anim/crash.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_THIEF_SHOOTAGAIN
+#BIF {  
+  ID 90
+  cw 1
+  ch 6      
+  map "anim/dontlopov.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_HACKING
+#BIF {  
+  ID 91
+  cw 1
+  ch 6      
+  map "anim/hacking.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_HELI
+#BIF {  
+  ID 92
+  cw 1
+  ch 6      
+  map "anim/helis.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_DOLLARS2_OVER
+#BIF {  
+  ID 93
+  cw 1
+  ch 6      
+  map "anim/malodolara.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_KEY_K
+#BIF {  
+  ID 94
+  cw 1
+  ch 6      
+  map "anim/key/k.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_KEY_E
+#BIF {  
+  ID 95
+  cw 1
+  ch 6      
+  map "anim/key/e.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_KEY_Y
+#BIF {  
+  ID 96
+  cw 1
+  ch 6      
+  map "anim/key/y.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_VM_SPEED_DRIVING_POLICEAUTO
+#BIF {  
+  ID 97
+  cw 1
+  ch 6      
+  map "anim/VideoModes/SpeedDriving/policeauto.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_VM_SPEED_DRIVING_THIEFAUTO
+#BIF {  
+  ID 98
+  cw 1
+  ch 6      
+  map "anim/VideoModes/SpeedDriving/thiefauto.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_VM_SPEED_DRIVING_RACEFRONT
+#BIF {  
+  ID 99
+  cw 1
+  ch 6      
+  map "anim/VideoModes/SpeedDriving/racefront.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+
+//LCDMSG_VM_SPEED_DRIVING_RACELEFT
+#BIF {  
+  ID 100
+  cw 1
+  ch 6      
+  map "anim/VideoModes/SpeedDriving/raceleft.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+
+//LCDMSG_VM_SPEED_DRIVING_RACERIGHT
+#BIF {  
+  ID 101
+  cw 1
+  ch 6      
+  map "anim/VideoModes/SpeedDriving/raceright.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_VM_SPEED_DRIVING_MPCLEFT
+#BIF {  
+  ID 102
+  cw 1
+  ch 6      
+  map "anim/VideoModes/SpeedDriving/mpcleft.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_VM_SPEED_DRIVING_MPCFRONT
+#BIF {  
+  ID 103
+  cw 1
+  ch 6      
+  map "anim/VideoModes/SpeedDriving/mpcfront.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_VM_SPEED_DRIVING_MPCRIGHT
+#BIF {  
+  ID 104
+  cw 1
+  ch 6      
+  map "anim/VideoModes/SpeedDriving/mpcright.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_VM_SPEED_DRIVING_CRASH
+#BIF {  
+  ID 105
+  cw 1
+  ch 6      
+  map "anim/VideoModes/SpeedDriving/crash.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_BIGSCORE_LETTERS
+#BIF {  
+  ID 106
+  cw 1
+  ch 6      
+  map "anim/bigscorefont.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_CHOOSE_PLAYER_POLICEA_DARK
+#BIF {  
+  ID 107
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/policeaselect.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_CHOOSE_PLAYER_POLICEB_DARK
+#BIF {  
+  ID 108
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/policebselect.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_CHOOSE_PLAYER_THIEFA_DARK
+#BIF {  
+  ID 109
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/lopovaselect.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_CHOOSE_PLAYER_THIEFB_DARK
+#BIF {  
+  ID 110
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/lopovbselect.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_CHOOSE_PLAYER_POLICEA_SELECTED
+#BIF {  
+  ID 111
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/policeselecta.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_CHOOSE_PLAYER_POLICEB_SELECTED
+#BIF {  
+  ID 112
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/policeselectb.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_CHOOSE_PLAYER_THIEFA_SELECTED
+#BIF {  
+  ID 113
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/lopovselecta.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_CHOOSE_PLAYER_THIEFB_SELECTED
+#BIF {  
+  ID 114
+  cw 1
+  ch 6      
+  map "anim/chooseplayer/lopovselectb.tga"
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START repeat(0,5,1) END		
+  }
+}
+
+//LCDMSG_GEARUP_BACK
+#BIF {  
+
+  ID 115
+  cw 1
+  ch 8      
+  map "anim/modes/gear_up/oruzijescroll.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }
+     
+}
+
+//LCDMSG_GETTHETEAM_BACK
+#BIF {  
+
+  ID 116
+  cw 1
+  ch 8      
+  map "anim/modes/get_the_team/crowd.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_GETTHETEAM_POLICE
+#BIF {  
+
+  ID 117
+  cw 1
+  ch 8      
+  map "anim/modes/get_the_team/policeteam.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_GETTHETEAM_THIEF
+#BIF {  
+
+  ID 118
+  cw 1
+  ch 8      
+  map "anim/modes/get_the_team/thiefteam.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_CARTHEFT_POLICE_BACK
+#BIF {  
+
+  ID 119
+  cw 1
+  ch 8      
+  map "anim/modes/Car_Theft/oci.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_CARTHEFT_THIEF_BACK
+#BIF {  
+
+  ID 120
+  cw 1
+  ch 8      
+  map "anim/modes/Car_Theft/obijanje.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_CARTHEFT_THIEF_SUCCESS
+#BIF {  
+
+  ID 121
+  cw 1
+  ch 8      
+  map "anim/modes/Car_Theft/cat.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_CARTHEFT_POLICE_SUCCESS
+#BIF {  
+
+  ID 122
+  cw 1
+  ch 8      
+  map "anim/modes/Car_Theft/car_busted.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_MULTIBALL_BACK
+#BIF {  
+
+  ID 123
+  cw 1
+  ch 8      
+  map "anim/multiball_back.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_TWOBALL_BACK
+#BIF {  
+
+  ID 124
+  cw 1
+  ch 8      
+  map "anim/twoball_back.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_LAUNCH_BALL
+#BIF {  
+
+  ID 125
+  cw 1
+  ch 8      
+  map "anim/launch.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_VM_SPEED_DRIVING_USE_FLIPPERS
+#BIF {  
+
+  ID 126
+  cw 1
+  ch 8      
+  map "anim/VideoModes/SpeedDriving/useflippers.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_VIPHIJACK_BACK
+#BIF {  
+
+  ID 127
+  cw 1
+  ch 8      
+  map "anim/modes/VIP_hijack/scrollbacka.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_VIPHIJACK_RUNNING
+#BIF {  
+
+  ID 128
+  cw 1
+  ch 8      
+  map "anim/modes/VIP_hijack/trcanje.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_VIPHIJACK_HOSTAGE
+#BIF {  
+
+  ID 129
+  cw 1
+  ch 8      
+  map "anim/modes/VIP_hijack/taoci.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_VIPHIJACK_HANDGUN
+#BIF {  
+
+  ID 130
+  cw 1
+  ch 8      
+  map "anim/modes/VIP_hijack/handpistola.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKANDENTRY_DOOR1
+#BIF {  
+
+  ID 131
+  cw 1
+  ch 8      
+  map "anim/modes/Break_and_entry/vrataloop_01.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKANDENTRY_DOOR2
+#BIF {  
+
+  ID 132
+  cw 1
+  ch 8      
+  map "anim/modes/Break_and_entry/vrataloop_02.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKANDENTRY_DOOR3
+#BIF {  
+
+  ID 133
+  cw 1
+  ch 8      
+  map "anim/modes/Break_and_entry/vrataloop_03.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKANDENTRY_BACK
+#BIF {  
+
+  ID 134
+  cw 1
+  ch 8      
+  map "anim/modes/Break_and_entry/vrataloop.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKOUT_01ROL_DO
+#BIF {  
+
+  ID 135
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/01rol_do.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKOUT_01ROL_OD
+#BIF {  
+
+  ID 136
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/01rol_od.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+
+//LCDMSG_BREAKOUT_02ROL_DO
+#BIF {  
+
+  ID 137
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/02rol_do.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKOUT_02ROL_OD
+#BIF {  
+
+  ID 138
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/02rol_od.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+
+//LCDMSG_BREAKOUT_03ROL_DO
+#BIF {  
+
+  ID 139
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/03rol_do.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKOUT_03ROL_OD
+#BIF {  
+
+  ID 140
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/03rol_od.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+
+//LCDMSG_BREAKOUT_04ROL_DO
+#BIF {  
+
+  ID 141
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/04rol_do.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKOUT_04ROL_OD
+#BIF {  
+
+  ID 142
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/04rol_od.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+
+//LCDMSG_BREAKOUT_B_DO
+#BIF {  
+
+  ID 143
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/b_do.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKOUT_B_OD
+#BIF {  
+
+  ID 144
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/b_od.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+
+//LCDMSG_BREAKOUT_BM_DO
+#BIF {  
+
+  ID 145
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/bm_do.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKOUT_BM_OD
+#BIF {  
+
+  ID 146
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/bm_od.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+
+//LCDMSG_BREAKOUT_EB_DO
+#BIF {  
+
+  ID 147
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/eb_do.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKOUT_EB_OD
+#BIF {  
+
+  ID 148
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/eb_od.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+
+//LCDMSG_BREAKOUT_HS_DO
+#BIF {  
+
+  ID 149
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/hs_do.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+
+//LCDMSG_BREAKOUT_HS_OD
+#BIF {  
+
+  ID 150
+  cw 1
+  ch 8      
+  map "anim/modes/Breakout/hs_od.tga"
+ 
+  ANIM { 
+    ID 0
+    loop 0
+    delay 100   
+    START 0 1 2 3 4 5 6 7,1000 END	
+  }   
+}
+

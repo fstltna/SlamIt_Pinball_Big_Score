@@ -1,0 +1,232 @@
+
+// OCCLUDERS  
+ 
+#occluder "tabletop" {
+  transparency_level 0   
+}  
+
+#occluder "fliper_box" {
+  transparency_level 0   
+} 
+
+#occluder "kutija" {
+  transparency_level 0    
+} 
+
+
+#occluder "wall_trougao_D" {
+  transparency_level 1   
+}    
+
+#occluder "wall_trougao_L" {
+  transparency_level 1   
+}  
+
+//#occluder "wall_dole_L" {
+//  transparency_level 0   
+//}  
+
+#occluder "wall_doleD" {
+  transparency_level 0   
+}  
+
+#occluder "wall_ram" { 
+  transparency_level 0   
+}  
+
+#occluder "wall_border_D" { 
+  transparency_level 0   
+}  
+
+#occluder "wall_ulaz" { 
+  transparency_level 0   
+}  
+
+
+#occluder "wall_border_L_up" {
+  transparency_level 0    
+}
+
+#occluder "wall_ulaz_up" {
+  transparency_level 0    
+}
+
+#occluder "plava_lampa_postolje" {
+  transparency_level 1    
+}
+#occluder "crvena_lampa_postolje" {
+  transparency_level 1    
+}
+
+#occluder "target_key_k" {  
+  transparency_level 0     
+}
+#occluder "target_key_e" {
+  transparency_level 0    
+}
+#occluder "target_key_y" {
+  transparency_level 0   
+}
+
+#occluder "rotator_crvena_lampa" {
+  transparency_level 0   
+}
+
+#occluder "rotator_plava_lampa" {
+  transparency_level 0   
+}
+
+
+// OCCLUDERS FOR BIG LAMPS  
+#occluder "wall_rampaL" {
+  transparency_level 1   
+}    
+#occluder "wall_sef" {
+  transparency_level 0  
+}    
+#occluder "bank" {
+  transparency_level 0  
+}    
+
+
+
+
+ 
+// OCCLUSIONS 
+   	 
+#occlusion "LED_49" {  
+  flare  "light_right_slinger"         
+  flare_offset 0 0 0.5
+}      
+
+#occlusion "LED_54" {  
+  flare  "light_left_slinger"          
+  flare_offset 0 0 0.5
+}      
+
+#occlusion "LED_44" {   
+  flare  "LED_44"             
+  flare_offset 0 0 0.5
+}      
+
+#occlusion "LED_55" {   
+  flare  "LED_55"             
+  flare_offset 0 0 0.5
+}      
+ 
+#occlusion "LED_37" {   
+  flare  "LED_37"             
+  flare_offset 0 0 0.5
+}      
+
+#occlusion "LED_38" {   
+  flare  "LED_38"             
+  flare_offset 0 0 0.5
+}      
+
+#occlusion "LED_39" {   
+  flare  "LED_39"             
+  flare_offset 0 0 0.5
+}      
+
+#occlusion "LED_40" {   
+  flare  "LED_40"             
+  flare_offset 0 0 0.5
+}      
+
+#occlusion "LED_56" {  
+  flare  "light_left_targets"         
+  flare_offset 0 0 0.5
+}  
+
+
+#occlusion "LED_24" {   
+  flare  "LED_24"             
+  flare_offset 0 0 0.5
+}      
+
+#occlusion "LED_26" {   
+  flare  "LED_26"             
+  flare_offset 0 0 0.5
+}      
+
+#occlusion "LED_48" {   
+  flare  "LED_48"             
+  flare_offset 0 0 0.5
+}      
+
+//#occlusion "LED_31" {   
+//  flare  "LED_31"             
+//  flare_offset 0 0 0.5
+//} 
+     
+#occlusion "LED_32" {   
+  flare  "LED_32"             
+  flare_offset 0 0 0.5
+}      
+#occlusion "LED_33" {   
+  flare  "LED_33"             
+  flare_offset 0 0 0.5
+}      
+
+#occlusion "LED_alarm" {   
+  flare  "LED_alarm"             
+  flare_offset 0 0 0.5
+}
+
+#occlusion "LED_siren" {   
+  flare  "LED_siren"             
+  flare_offset 0 0 0.5
+}    
+
+#occlusion "LAMP_MINIMODE_STATUS" {   
+  flare  "LAMP_MINIMODE_STATUS"             
+  flare_offset 0 0 0
+}    
+
+#occlusion "LAMP_MODE_STATUS" {   
+  flare  "LAMP_MODE_STATUS"              
+  flare_offset 0 0 0
+}    
+
+#occlusion "LAMP_MULTIBALL_STATUS" {   
+  flare  "LAMP_MULTIBALL_STATUS"             
+  flare_offset 0 0 0
+}    
+  
+#occlusion "BigLamp01" {    
+  flare  "light_big_bank"             
+  flare_offset 0 0 0 
+} 
+  
+#occlusion "BigLamp02" {   
+  flare  "light_big_left"             
+  flare_offset 0 0 0
+} 
+  
+#occlusion "BigLamp03" {    
+  flare  "light_big_right"             
+  flare_offset 0 0 0
+} 
+  
+#occlusion "BigLamp04" {   
+  flare  "light_big_safe"             
+  flare_offset 0 0 0
+}   
+
+#occlusion "bumper_A" {   
+  flare  "light_bumper_A"             
+  flare_offset 0 0 0
+}   
+
+#occlusion "bumper_B" {   
+  flare  "light_bumper_B"             
+  flare_offset 0 0 0
+}    
+ 
+#occlusion "bumper_C" {     
+  flare  "light_bumper_C"              
+  flare_offset 0 0 0
+}   
+ 
+

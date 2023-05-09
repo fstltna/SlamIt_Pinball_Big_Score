@@ -1,0 +1,3717 @@
+// ====================================================================
+// LAMP SETS
+// ====================================================================
+
+
+$LAMPSET "all_lamps" 
+{
+  light LAMP_RIGHT_RAMP
+  light LAMP_RIGHT_LOOP
+  light LAMP_LEFT_RAMP
+  light LAMP_LEFT_LOOP
+  light LAMP_BUMPER_LANE_1
+  light LAMP_BUMPER_LANE_4
+  light LAMP_BUMPER_LANE_3
+  light LAMP_BUMPER_LANE_2
+  light LAMP_KEY_K
+  light LAMP_KEY_E
+  light LAMP_KEY_Y
+  light LAMP_SUPERJACK
+  light LAMP_BANK_K
+  light LAMP_BANK_N
+  light LAMP_BANK_A
+  light LAMP_BANK_B
+  light LAMP_EXTRABALL
+  light LAMP_BONUS8X
+  light LAMP_BONUS4X
+  light LAMP_BONUS2X
+  light LAMP_BONUS6X
+  light LAMP_LOCK_UNDERGROUND
+  light LAMP_SHOOTAGAIN
+  light LAMP_LEFT_DRAIN
+  light LAMP_RIGHT_DRAIN
+  light LAMP_LEFT_LANE_1
+  light LAMP_LEFT_LANE_2
+  light LAMP_RIGHT_LANE_1
+  light LAMP_RIGHT_LANE_2
+  light LAMP_SHOT_5
+  light LAMP_SHOT_4
+  light LAMP_BUMPER_C_8
+  light LAMP_BUMPER_C_7
+  light LAMP_BUMPER_C_6
+  light LAMP_BUMPER_C_5
+  light LAMP_BUMPER_C_4
+  light LAMP_BUMPER_C_3
+  light LAMP_BUMPER_C_2
+  light LAMP_BUMPER_C_1
+  light LAMP_BUMPER_B_8
+  light LAMP_BUMPER_B_7
+  light LAMP_BUMPER_B_6
+  light LAMP_BUMPER_B_5
+  light LAMP_BUMPER_B_4
+  light LAMP_BUMPER_B_3
+  light LAMP_BUMPER_B_2
+  light LAMP_BUMPER_B_1
+  light LAMP_BUMPER_A_8
+  light LAMP_BUMPER_A_7
+  light LAMP_BUMPER_A_6
+  light LAMP_BUMPER_A_5
+  light LAMP_BUMPER_A_4
+  light LAMP_BUMPER_A_3
+  light LAMP_BUMPER_A_2
+  light LAMP_BUMPER_A_1
+  light LAMP_UNDERGROUND
+  light LAMP_UNDERGROUND_5
+  light LAMP_UNDERGROUND_4
+  light LAMP_UNDERGROUND_3
+  light LAMP_UNDERGROUND_2
+  light LAMP_UNDERGROUND_1
+  light LAMP_RIGHT_LIGHT_LOCK
+  light LAMP_LEFT_LIGHT_LOCK
+  light LAMP_LOCK_BANK
+  light LAMP_WHEEL_9
+  light LAMP_WHEEL_8
+  light LAMP_WHEEL_7
+  light LAMP_WHEEL_6
+  light LAMP_WHEEL_5
+  light LAMP_WHEEL_4
+  light LAMP_WHEEL_3
+  light LAMP_WHEEL_2
+  light LAMP_WHEEL_1
+  light LAMP_BIG
+  light LAMP_TROUBLE
+  light LAMP_MONEY
+  light LAMP_FORTUNE
+  light LAMP_FAME
+  light LAMP_START_MODE
+  light LAMP_FAR_L
+  light LAMP_FAR_R
+  light LAMP_JACKPOT
+  light LAMP_MULTIBALL
+  light LAMP_EXTRA
+  light LAMP_Logo_B
+  light LAMP_Logo_I 
+  light LAMP_Logo_G
+  light LAMP_Logo_S  
+  light LAMP_Logo_C
+  light LAMP_Logo_O 
+  light LAMP_Logo_R
+  light LAMP_Logo_E  
+  light LAMP_50
+  light LAMP_100 
+  light LAMP_500
+  light LAMP_1M  
+  light LAMP_2M
+  light LAMP_5M 
+  light LAMP_MODE_UP_GEAR_UP
+  light LAMP_MODE_UP_CAR_THEFT
+  light LAMP_MODE_UP_GET_THE_TEAM
+  light LAMP_MODE_UP_SHOTING_PRACTICE
+  light LAMP_MODE_UP_SPEED_DRIVING
+  light LAMP_MODE_DOWN_INSIDE_JOB 
+  light LAMP_MODE_DOWN_BREAK_AND_ENTRY
+  light LAMP_MODE_DOWN_FIND_SNITCH 
+  light LAMP_MODE_DOWN_BEAT_OUT_INFO 
+  light LAMP_MODE_DOWN_BREAK_OUT
+  light LAMP_MODE_DOWN_VIP_HIJACK
+  light LAMP_MINIMODE_BANK
+  light LAMP_MINIMODE_JAIL
+  light LAMP_MINIMODE_INOUT
+  light LAMP_MINIMODE_BOX
+  light LAMP_MINIMODE_CALL
+  light LAMP_MINIMODE_CHASE
+  light LAMP_MINIMODE_MONEY
+  light LAMP_MINIMODE_HACKIN
+  light LAMP_HOLD_JETS
+  light LAMP_SPECIAL	
+}
+
+
+$LAMPSET "mini_ramp"
+{
+  light LAMP_JACKPOT 
+  light LAMP_MULTIBALL
+  light LAMP_EXTRA
+}
+
+$LAMPSET "left_loop"
+{
+  light LAMP_LEFT_LIGHT_LOCK 
+  light LAMP_LEFT_LOOP
+  light LAMP_MINIMODE_BANK
+  light LAMP_MINIMODE_JAIL
+  light LAMP_MINIMODE_INOUT
+  light LAMP_MINIMODE_BOX  
+}
+
+$LAMPSET "right_loop"
+{
+  light LAMP_RIGHT_LIGHT_LOCK 
+  light LAMP_RIGHT_LOOP
+  light LAMP_MINIMODE_CALL
+  light LAMP_MINIMODE_CHASE
+  light LAMP_MINIMODE_MONEY
+  light LAMP_MINIMODE_HACKIN
+}
+
+$LAMPSET "UNDERGROUND"
+{
+  light LAMP_LOCK_UNDERGROUND
+  light  LAMP_UNDERGROUND_1
+  light  LAMP_UNDERGROUND_2
+  light  LAMP_UNDERGROUND_3
+  light  LAMP_UNDERGROUND_4
+  light  LAMP_UNDERGROUND_5
+  light  LAMP_UNDERGROUND
+}
+
+$LAMPSET "UNDERGROUND_READY"
+{
+  light  LAMP_UNDERGROUND_1
+  light  LAMP_UNDERGROUND_2
+  light  LAMP_UNDERGROUND_3
+  light  LAMP_UNDERGROUND_4
+  light  LAMP_UNDERGROUND_5
+  light  LAMP_UNDERGROUND
+}
+
+
+$LAMPSET "LEFT_TARGETS"
+{
+  light light_left_targets
+}
+
+$LAMPSET "LS_BIG_LAMPS" 
+{
+  light light_big_bank
+  light light_big_left
+  light light_big_right
+  light light_big_safe
+}
+
+$LAMPSET "LS_BIG_BANK"
+{
+  light light_big_bank
+}
+   
+$LAMPSET "LS_BIG_LEFT"
+{
+  light light_big_left
+}
+
+$LAMPSET "LS_BIG_RIGHT"
+{
+  light light_big_right
+}
+
+
+$LAMPSET "LS_BIG_SAFE"
+{
+  light light_big_safe
+}
+
+$LAMPSET "BANK_LOCK" 
+{
+	  light LAMP_LOCK_BANK
+
+}
+
+
+$LAMPSET "bumper_C" 
+{
+  light LAMP_BUMPER_C_8
+  light LAMP_BUMPER_C_7
+  light LAMP_BUMPER_C_6
+  light LAMP_BUMPER_C_5
+  light LAMP_BUMPER_C_4
+  light LAMP_BUMPER_C_3
+  light LAMP_BUMPER_C_2
+  light LAMP_BUMPER_C_1
+}
+
+$LAMPSET "bumper_B" 
+{
+  light LAMP_BUMPER_B_1
+  light LAMP_BUMPER_B_2
+  light LAMP_BUMPER_B_3
+  light LAMP_BUMPER_B_4
+  light LAMP_BUMPER_B_5
+  light LAMP_BUMPER_B_6
+  light LAMP_BUMPER_B_7
+  light LAMP_BUMPER_B_8
+}
+
+$LAMPSET "bumper_A" 
+{
+  light LAMP_BUMPER_A_8
+  light LAMP_BUMPER_A_7
+  light LAMP_BUMPER_A_6
+  light LAMP_BUMPER_A_5
+  light LAMP_BUMPER_A_4
+  light LAMP_BUMPER_A_3
+  light LAMP_BUMPER_A_2
+  light LAMP_BUMPER_A_1
+}
+
+$LAMPSET "bigscore" 
+{
+  light "LAMP_Logo_B"
+  light "LAMP_Logo_I" 
+  light "LAMP_Logo_G"
+  light "LAMP_Logo_S"  
+  light "LAMP_Logo_C"
+  light "LAMP_Logo_O" 
+  light "LAMP_Logo_R"
+  light "LAMP_Logo_E"  	
+}  	    
+
+$LAMPSET "money" 
+{
+  light "LAMP_50"
+  light "LAMP_100" 
+  light "LAMP_500"
+  light "LAMP_1M"  
+  light "LAMP_2M"
+  light "LAMP_5M" 
+}  	
+
+
+$LAMPSET "modes_upper" 
+{
+
+  light LAMP_MODE_UP_GEAR_UP
+  light LAMP_MODE_UP_CAR_THEFT
+  light LAMP_MODE_UP_GET_THE_TEAM
+  light LAMP_MODE_UP_SHOTING_PRACTICE
+  light LAMP_MODE_UP_SPEED_DRIVING
+  
+} 
+
+$LAMPSET "modes_down"  
+{
+  
+
+ light LAMP_MODE_DOWN_INSIDE_JOB 
+ light LAMP_MODE_DOWN_BREAK_AND_ENTRY
+ light LAMP_MODE_DOWN_FIND_SNITCH 
+ light LAMP_MODE_DOWN_BEAT_OUT_INFO 
+ light LAMP_MODE_DOWN_BREAK_OUT
+ light LAMP_MODE_DOWN_VIP_HIJACK
+} 
+
+$LAMPSET "bumperi"  
+{
+  
+ light light_bumper_A
+ light light_bumper_B
+ light light_bumper_C
+}
+
+$LAMPSET "SPINNER"  
+{
+  
+  light LAMP_WHEEL_9
+  light LAMP_WHEEL_8
+  light LAMP_WHEEL_7
+  light LAMP_WHEEL_6
+  light LAMP_WHEEL_5
+  light LAMP_WHEEL_4
+  light LAMP_WHEEL_3
+  light LAMP_WHEEL_2
+  light LAMP_WHEEL_1
+}
+
+$LAMPSET "SPINNER_RIGHT"  
+{
+  
+  light LAMP_WHEEL_9
+  light LAMP_WHEEL_8
+  light LAMP_WHEEL_7
+  light LAMP_WHEEL_6
+}
+
+$LAMPSET "SPINNER_LEFT"  
+{
+  
+  light LAMP_WHEEL_1
+  light LAMP_WHEEL_2
+  light LAMP_WHEEL_3
+  light LAMP_WHEEL_4
+}
+
+
+$LAMPSET "SPINNER_LEFT5"  
+{
+  
+  light LAMP_WHEEL_1
+  light LAMP_WHEEL_2
+  light LAMP_WHEEL_3
+  light LAMP_WHEEL_4
+  light LAMP_WHEEL_5
+}
+
+$LAMPSET "SPINNER_RIGHT5"  
+{
+  
+  light LAMP_WHEEL_9
+  light LAMP_WHEEL_8
+  light LAMP_WHEEL_7
+  light LAMP_WHEEL_6
+  light LAMP_WHEEL_5
+}
+
+$LAMPSET "SPINNER_ODD"  
+{
+  
+  light LAMP_WHEEL_1
+  light LAMP_WHEEL_3
+  light LAMP_WHEEL_5
+  light LAMP_WHEEL_7
+  light LAMP_WHEEL_9
+}
+
+$LAMPSET "SPINNER_EVEN"  
+{
+     
+  light LAMP_WHEEL_2
+  light LAMP_WHEEL_4
+  light LAMP_WHEEL_6
+  light LAMP_WHEEL_8
+}
+ 
+$LAMPSET "LAMP_BANK"
+{
+	light LAMP_BANK_B
+	light LAMP_BANK_A
+	light LAMP_BANK_N
+	light LAMP_BANK_K
+}  
+
+
+$LAMPSET "LAMP_BANK_B"  
+{   
+	light LAMP_BANK_B
+}
+
+$LAMPSET "LAMP_BANK_A"  
+{   
+	light LAMP_BANK_A
+}
+
+$LAMPSET "LAMP_BANK_N"  
+{   
+	light LAMP_BANK_N
+}
+
+$LAMPSET "LAMP_BANK_K"  
+{   
+	light LAMP_BANK_K
+}
+
+
+$LAMPSET "mainlights"  
+{   
+ light light_mainlights
+} 
+
+$LAMPSET "alarmled"  
+{   
+ light light_alarm_0
+} 
+
+$LAMPSET "sirenled"  
+{   
+ light light_siren_0
+} 
+
+$LAMPSET "bumperlight_A"  
+{   
+ light light_bumper_A
+} 
+$LAMPSET "bumperlight_B"  
+{   
+ light light_bumper_B
+} 
+$LAMPSET "bumperlight_C"  
+{   
+ light light_bumper_C
+} 
+
+
+$LAMPSET "SPINNER01"  
+{   
+ light LAMP_WHEEL_1
+}
+
+$LAMPSET "SPINNER02"  
+{   
+ light LAMP_WHEEL_2
+}
+
+$LAMPSET "SPINNER03"  
+{   
+ light LAMP_WHEEL_3
+}
+
+$LAMPSET "SPINNER04"  
+{   
+ light LAMP_WHEEL_4
+}
+
+$LAMPSET "SPINNER05"  
+{   
+ light LAMP_WHEEL_5
+}
+
+$LAMPSET "SPINNER06"  
+{   
+ light LAMP_WHEEL_6
+}
+
+$LAMPSET "SPINNER07"  
+{   
+ light LAMP_WHEEL_7
+}
+
+$LAMPSET "SPINNER08"  
+{   
+ light LAMP_WHEEL_8
+}
+
+$LAMPSET "SPINNER09"  
+{   
+ light LAMP_WHEEL_9
+}
+
+ 
+ 
+$LAMPSET "LAMP_LEFT_RAMP"  
+{   
+ light LAMP_LEFT_RAMP
+} 
+ 
+ 
+$LAMPSET "LAMP_RIGHT_RAMP"  
+{   
+ light LAMP_RIGHT_RAMP
+} 
+  
+ 
+$LAMPSET "slingers"  
+{   
+ light light_left_slinger
+ light light_right_slinger
+} 
+
+$LAMPSET "LSLINGER"  
+{   
+ light light_left_slinger
+}
+
+$LAMPSET "RSLINGER"  
+{   
+ light light_right_slinger
+} 
+ 
+
+
+$LAMPSET "alarm"  
+{
+  light light_alarm_1
+  light light_alarm_2
+  light light_alarm_3
+  light light_alarm_4
+  light light_alarm_5
+  light light_alarm_6
+  light light_alarm_7
+  light light_alarm_8
+}
+   
+
+$LAMPSET "siren"  
+{
+  light light_siren_1
+  light light_siren_2
+  light light_siren_3
+  light light_siren_4
+  light light_siren_5
+  light light_siren_6
+  light light_siren_7
+  light light_siren_8
+}
+
+$LAMPSET "allmodes"  
+{
+  light LAMP_MODE_UP_GEAR_UP
+  light LAMP_MODE_UP_CAR_THEFT
+  light LAMP_MODE_UP_GET_THE_TEAM
+  light LAMP_MODE_UP_SHOTING_PRACTICE
+  light LAMP_MODE_UP_SPEED_DRIVING
+  light LAMP_MODE_DOWN_INSIDE_JOB 
+  light LAMP_MODE_DOWN_BREAK_AND_ENTRY
+  light LAMP_MODE_DOWN_FIND_SNITCH 
+  light LAMP_MODE_DOWN_BEAT_OUT_INFO 
+  light LAMP_MODE_DOWN_BREAK_OUT
+  light LAMP_MODE_DOWN_VIP_HIJACK
+  light LAMP_MINIMODE_BANK
+  light LAMP_MINIMODE_JAIL
+  light LAMP_MINIMODE_INOUT
+  light LAMP_MINIMODE_BOX
+  light LAMP_MINIMODE_CALL
+  light LAMP_MINIMODE_CHASE
+  light LAMP_MINIMODE_MONEY
+  light LAMP_MINIMODE_HACKIN
+}
+
+// ====================================================================
+// LIGHTSEQUENCES 
+// ====================================================================
+
+
+$LIGHTSEQUENCE "LS_MINI_RAMP"   
+{
+   $CHANNEL 0	
+   
+   $CMD SCROLL 
+   {
+    velocity  15   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "mini_ramp" 	 					   
+  }	 
+
+  
+  $CMD REPEAT 
+  {
+    start 0
+    count 3
+  }	    	 
+    
+}
+
+
+$LIGHTSEQUENCE "LS_BIGSCORE_COLLECTED"    
+{ 
+  
+  			
+  $CMD SCROLL     
+  { 
+    velocity  20  
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "bigscore" 	 					   
+  }	   
+           	  
+   
+  $CMD CIRCLE
+  { 
+    velocity  30
+    width 2
+    center 0 -23 0
+    radius_min 0  		
+    radius_max 15  		  
+    light LAMPSET "bigscore" 						   
+  }	    
+      
+
+
+
+  $CMD CIRCLE
+  { 
+    velocity  30
+    width 2
+    center -12 -23 0
+    radius_min 0  		
+    radius_max 30		
+    light LAMPSET "bigscore" 						   
+  }	   
+
+  $CMD DELAY 0.1
+  
+ 
+  $CMD SET      
+  { 
+    velocity  20 
+    value 0   	
+    light LAMPSET "bigscore"  	 					   
+  }
+   
+
+  $CMD SET      
+  { 
+    velocity  20
+    value 1.0	     	
+    light LAMPSET "bigscore"   	 					   
+  } 
+
+
+  $CMD SET      
+  { 
+    velocity  25 
+    value 0   	
+    light LAMPSET "bigscore"  	 					   
+  }
+   
+
+  $CMD SET      
+  { 
+    velocity  25
+    value 1.0	     	
+    light LAMPSET "bigscore"   	 					   
+  } 
+  
+  $CMD SET      
+  { 
+    velocity  30 
+    value 0   	
+    light LAMPSET "bigscore"  	 					   
+  }
+   
+
+  $CMD SET      
+  { 
+    velocity  30
+    value 1.0	     	
+    light LAMPSET "bigscore"   	 					   
+  } 
+  
+  $CMD SET      
+  { 
+    velocity  40 
+    value 0   	
+    light LAMPSET "bigscore"  	 					   
+  }
+   
+
+  $CMD SET      
+  { 
+    velocity  40
+    value 1.0	     	
+    light LAMPSET "bigscore"   	 					   
+  } 
+  
+  $CMD SET      
+  { 
+    velocity  50 
+    value 0   	
+    light LAMPSET "bigscore"  	 					   
+  }
+   
+
+  $CMD SET      
+  { 
+    velocity  50
+    value 1.0	     	
+    light LAMPSET "bigscore"   	 					   
+  } 
+
+  $CMD DELAY 1.5
+           	  
+}
+  
+
+$LIGHTSEQUENCE "LS_BUMPER_A"   
+{
+   $CHANNEL 0	
+  
+   $CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "bumperlight_A" 	 					   
+  }	 
+
+   $CHANNEL 1 
+    
+  $CMD PIE   
+  { 
+    velocity  800 
+    left 70
+    middle 130
+    right 70 
+    angle_min -130
+    angle_max 360 
+    center 0 0 0   
+    light LAMPSET "bumper_A"      						   
+  } 
+     	
+}
+
+$LIGHTSEQUENCE "LS_BUMPER_B"   
+{
+   $CHANNEL 0	
+  
+   $CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "bumperlight_B" 	 					   
+  }	 
+
+   $CHANNEL 1 
+    
+  $CMD PIE   
+  { 
+    velocity  800 
+    left 70
+    middle 130
+    right 70 
+    angle_min -130
+    angle_max 360 
+    center 0 0 0   
+    light LAMPSET "bumper_B"      						   
+  } 
+
+     	
+	$CHANNEL 2
+
+	$CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_LEFT" 	 					   
+  }	 
+     	
+
+}
+
+$LIGHTSEQUENCE "LS_BUMPER_C"   
+{
+   $CHANNEL 0	
+  
+   $CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "bumperlight_C" 	 					   
+  }	 
+
+   $CHANNEL 1 
+    
+  $CMD PIE   
+  { 
+    velocity  800 
+    left 70
+    middle 130
+    right 70 
+    angle_min -130
+    angle_max 360 
+    center 0 0 0   
+    light LAMPSET "bumper_C"      						   
+  }      	
+}
+
+
+$LIGHTSEQUENCE "LS_SPINNER_HIT"   
+{
+  $CHANNEL 0	
+   
+	$CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_SAFE"   	 					   
+  }	 
+  
+}
+
+$LIGHTSEQUENCE "LS_BIG_LAMPS"    
+{
+	$CHANNEL 0
+	
+	  
+   $CMD SET      
+  { 
+    velocity  5 
+    value 0.9    	
+    light LAMPSET "mainlights"  	 					   
+  }
+   
+  $CMD DELAY 0.4
+  
+
+  $CMD SET      
+  { 
+    velocity  3 
+    value 0.0 	     	
+    light LAMPSET "sirenled"  	 					   
+  }
+  
+     
+ $CMD SET      
+  { 
+    velocity  5 
+    value 1.0   	
+    light LAMPSET "mainlights"  	 					   
+  }
+ 
+
+	
+       $CHANNEL 1
+		
+	$CMD SCROLL 
+   {
+    velocity  40   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_LAMPS" 	 					   
+  }	 
+
+  $CMD REPEAT 
+  {
+    start 0
+    count 3
+  }	    	   	   
+
+
+}
+
+
+
+$LIGHTSEQUENCE "LS_AMBIENT#1"     
+{ 
+  
+  // ************************	
+  $CHANNEL 0
+  // ************************	
+  
+       
+  $CMD PIE   
+  { 
+    velocity  600 
+    left 70
+    middle 130
+    right 70 
+    angle_min -130
+    angle_max 1080
+    center 0 0 0   
+    light LAMPSET "all_lamps"      						   
+  } 
+
+ $CMD SCROLL   
+  { 
+    velocity 200
+    dir 0
+    left 8
+    middle 15
+    right 8
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps"  						   
+  }
+       
+  $CMD SCROLL   
+  { 
+    velocity -200
+    dir 0
+    left 8
+    middle 15
+    right 8
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps" 						   
+  }
+
+  $CMD SCROLL   
+  { 
+    velocity -200
+    dir 1
+    left 8
+    middle 15
+    right 8
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps" 						   
+  }
+
+  $CMD SCROLL   
+  { 
+    velocity 200
+    dir 1
+    left 8
+    middle 15
+    right 8
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps" 						   
+  } 
+
+
+}
+
+
+$LIGHTSEQUENCE "LS_STARTMODE"    
+{
+	$CHANNEL 0
+	
+	  
+   $CMD SET      
+  { 
+    velocity  5 
+    value 0.9    	
+    light LAMPSET "mainlights"  	 					   
+  }
+   
+  $CMD DELAY 0.4
+  
+
+  $CMD SET      
+  { 
+    velocity  3 
+    value 0.0 	     	
+    light LAMPSET "sirenled"  	 					   
+  }
+  
+     
+ $CMD SET      
+  { 
+    velocity  5 
+    value 1.0   	
+    light LAMPSET "mainlights"  	 					   
+  }
+ 
+
+	
+       $CHANNEL 1
+		
+	$CMD SCROLL 
+   {
+    velocity  40   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_LAMPS" 	 					   
+  }	 
+
+  $CMD REPEAT 
+  {
+    start 0
+    count 3
+  }	    	   	   
+
+}	
+
+
+$LIGHTSEQUENCE "LS_AMBIENT"    
+{ 
+  
+          
+  $CMD SCROLL     
+  { 
+    velocity  20  
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "bigscore" 	 					   
+  }	   
+           	  
+   
+  $CMD CIRCLE
+  { 
+    velocity  30
+    width 2
+    center 0 -23 0
+    radius_min 0  		
+    radius_max 15  		  
+    light LAMPSET "bigscore" 						   
+  }	    
+      
+  $CMD CIRCLE
+  { 
+    velocity  -30
+    width 2
+    center 0 -23 0
+    radius_min 0  		
+    radius_max 15 		
+    light LAMPSET "bigscore" 						   
+  }	   
+   
+
+  $CMD SCROLL   
+  { 
+    velocity  50
+    dir 0
+    bandwidth 8
+    left 2
+    middle 3
+    right 2
+    xstart 0			
+    xend 0			
+    light LAMPSET "bigscore" 						   
+  }	   
+  $CMD SCROLL   
+  { 
+    velocity  -50
+    dir 0
+    bandwidth 8
+    left 2
+    middle 3
+    right 2
+    xstart 0			 
+    xend 0			  
+    light LAMPSET "bigscore" 						   
+  }
+
+
+  $CMD CIRCLE
+  { 
+    velocity  30
+    width 2
+    center -12 -23 0
+    radius_min 0  		
+    radius_max 30		
+    light LAMPSET "bigscore" 						   
+  }	   
+
+  $CMD DELAY 1.5
+  
+
+  $CMD CIRCLE
+  { 
+    velocity  -30 
+    width 2
+    center -12 -23 0
+    radius_min 0  		
+    radius_max 30 		
+    light LAMPSET "bigscore" 						   
+  }	   
+
+
+  
+
+  // ************************	
+  $CHANNEL 2 
+  // ************************	
+
+
+         
+
+  $CMD SCROLL   
+  { 
+    velocity  -50
+    dir 0
+    left 4
+    middle 3
+    right 4
+			
+    light LAMPSET "modes_upper" 						   
+  }	 
+  $CMD SCROLL   
+  { 
+    velocity  50
+    dir 0
+    left 4
+    middle 3
+    right 4
+    light LAMPSET "modes_upper" 						   
+  }
+
+  $CMD REPEAT 
+  {
+    start 0
+    count 2
+  }	 
+
+
+  $CMD CIRCLE
+  { 
+    velocity  40
+    width 4 
+    center -18 -40 0
+    radius_min 0  		
+    radius_max 40		
+    light LAMPSET "modes_upper"						   
+  }	
+  
+  
+  $CMD DELAY 1.5  	   	   
+
+   
+  // ************************	
+  $CHANNEL 3
+  // ************************	
+   
+  $CMD SCROLL   
+  { 
+    velocity  50
+    dir 0
+    left 4
+    middle 3
+    right 4
+			
+    light LAMPSET "modes_down" 						   
+  }	 
+  $CMD SCROLL   
+  { 
+    velocity  -50
+    dir 0
+    left 4
+    middle 3
+    right 4
+    light LAMPSET "modes_down" 						   
+  }
+
+  $CMD REPEAT 
+  {
+    start 0 
+    count 1
+  }	    	   	   
+
+
+  $CMD CIRCLE
+  { 
+    velocity  40
+    width 4 
+    center -18 -40 0
+    radius_min 0  		
+    radius_max 40		
+    light LAMPSET "modes_down"						   
+  }	
+
+
+  $CMD DELAY 1.0
+   
+
+  // ************************	
+  $CHANNEL 4
+  // ************************	
+
+  $CMD SCROLL     
+  { 
+    velocity  8
+    variable  index 	
+    left 1
+    middle 1
+    right 1
+    light LAMPSET "bumperi" 	 					   
+  }	   
+
+  $CMD REPEAT       
+  { 
+    start 0
+    count 2	       
+  }
+	   
+  $CMD SCROLL     
+  { 
+    velocity  -8
+    variable  index 	
+    left 1
+    middle 10
+    right 1
+    light LAMPSET "bumperi" 	 					   
+  }	   
+  
+      
+  // ************************	
+  $CHANNEL 5
+  // ************************	
+
+  $CMD SET      
+  { 
+    velocity  7 
+    value 0.2 	     	
+    light LAMPSET "mainlights"  	 					   
+  }   	   
+      
+  $CMD DELAY 4 
+     
+  $CMD SET      
+  { 
+    velocity  7 
+    value 1.0 	     	
+    light LAMPSET "mainlights"   	 					   
+  }   	   
+
+}   
+
+
+
+$LIGHTSEQUENCE "LS_SNEAKIN"    
+{ 
+  
+  // ************************	
+  $CHANNEL 0
+  // ************************	
+  
+  $CMD SET      
+  { 
+    velocity  4 
+    value 0     	
+    light LAMPSET "mainlights"  	 					   
+  }    
+  
+  $CMD DELAY 2
+  
+  $CMD SET      
+  { 
+    velocity  2 
+    value 1     	
+    light LAMPSET "mainlights"  	 					   
+  }
+
+  // ************************	
+  $CHANNEL 1
+  // ************************	
+
+  $CMD SCROLL     
+  { 
+    velocity  -4
+    variable  index 	
+    left 1
+    middle 7
+    right 1
+    light LAMPSET "bumperi" 	 					   
+  }	   
+
+  // ************************	
+  $CHANNEL 2
+  // ************************	
+  
+  $CMD SCROLL   
+  { 
+    velocity -60
+    dir 0
+    left 12
+    middle 13
+    right 20
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps"						   
+  }	   
+  
+    $CMD SCROLL   
+  { 
+    velocity 60
+    dir 0
+    left 12
+    middle 13
+    right 20
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps"						   
+  }
+
+}
+
+  
+
+$LIGHTSEQUENCE "LS_ALARM1"      
+{ 
+  
+  // ************************	
+  $CHANNEL 0
+  // ************************	
+  
+     
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "alarmled"  	 					   
+  }
+ 
+ 
+  $CMD SET      
+  { 
+    velocity  1 
+    value 0     	
+    light LAMPSET "mainlights"  	 					   
+  }
+ 
+  $CMD DELAY 0.8
+
+  $CMD SET      
+  { 
+    velocity  3 
+    value 0.0 	     	
+    light LAMPSET "alarmled"  	 					   
+  }
+   
+ $CMD SET      
+  { 
+    velocity  1 
+    value 1   	
+    light LAMPSET "mainlights"  	 					   
+  }
+
+
+
+           
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+  
+  $CMD PIE   
+  { 
+    velocity 800
+    variable index 
+    left 70
+    middle 60 
+    right 70  
+    angle_min -200
+    angle_max 1800
+    center 0 0 0   
+    light LAMPSET "alarm"
+    action "podesi crvenu lampu"      						   
+  }             
+       
+}
+
+$LIGHTSEQUENCE "LS_SIREN1"      
+{ 
+  
+  // ************************	
+  $CHANNEL 0
+  // ************************	
+  
+     
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "sirenled"  	 					   
+  }
+ 
+ $CMD SET      
+  { 
+    velocity  1 
+    value 0     	
+    light LAMPSET "mainlights"  	 					   
+  }
+ 
+  $CMD DELAY 1.4
+ 
+ $CMD SET      
+  { 
+    velocity  3 
+    value 1   	
+    light LAMPSET "mainlights"  	 					   
+  }
+           
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+  
+  $CMD PIE   
+  { 
+    velocity 800
+    variable index 
+    left 70
+    middle 60 
+    right 70  
+    angle_min -200
+    angle_max 1800
+    center 0 0 0   
+    light LAMPSET "siren" 
+    action "podesi plavu lampu"      						   
+  }             
+       
+}
+
+$LIGHTSEQUENCE "LS_sirena_alarm"    
+{ 
+  
+  // ************************	
+  $CHANNEL 0
+  // ************************	
+  
+  $CMD SCROLL   
+  { 
+    velocity 30
+    dir 1
+    left 12
+    middle 13
+    right 12
+    xstart 0			
+    xend 0			
+    light LAMPSET "allmodes" 						   
+  }
+       
+  $CMD SCROLL   
+  { 
+    velocity -30
+    dir 1
+    left 12
+    middle 13
+    right 12
+    xstart 0			
+    xend 0			
+    light LAMPSET "allmodes" 						   
+  }
+
+  $CMD SCROLL   
+  { 
+    velocity 30
+    dir 0
+    left 12 
+    middle 13
+    right 12
+    xstart 0			
+    xend 0			
+    light LAMPSET "allmodes" 						   
+  }
+       
+  $CMD SCROLL   
+  { 
+    velocity -30
+    dir 0
+    left 12
+    middle 13
+    right 12
+    xstart 0			
+    xend 0			
+    light LAMPSET "allmodes" 						   
+  }
+
+  // ************************	
+  $CHANNEL 1
+  // ************************	
+
+  $CMD SCROLL   
+  { 
+    velocity  20  
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "alarm" 						   
+  }
+
+  $CMD REPEAT       
+  { 
+    start 0
+    count 2	       
+  }
+
+
+  // ************************	
+  $CHANNEL 2
+  // ************************	
+
+  $CMD SCROLL   
+  { 
+    velocity  20  
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "siren" 						   
+  }
+
+  $CMD REPEAT       
+  { 
+    start 0
+    count 2	       
+  }
+
+  // ************************	
+  $CHANNEL 3
+  // ************************	
+
+
+  $CMD SET      
+  { 
+    velocity  7 
+    value 0.0 	     	
+    light LAMPSET "mainlights"  	 					   
+  }   	   
+      
+  $CMD DELAY 1.5   
+     
+  $CMD SET      
+  { 
+    velocity  7 
+    value 1.0 	     	
+    light LAMPSET "mainlights"  	 					   
+  }
+
+}
+
+
+$LIGHTSEQUENCE "LS_TILT"    
+{ 
+
+  // ************************	
+  $CHANNEL 0
+  // ************************	
+
+
+  $CMD SET      
+  { 
+    velocity  7 
+    value 0.0 	     	
+    light LAMPSET "mainlights"  	 					   
+  }   	   
+      
+  $CMD DELAY 1000.0      
+ 
+  // ************************	
+  $CHANNEL 1
+  // ************************	
+
+  $CMD SET      
+  { 
+    velocity  7 
+    value 0.0 	     	
+    light LAMPSET "all_lamps"  						   
+  }   	   
+     
+  $CMD DELAY 1000.0      
+	 
+}
+
+
+$LIGHTSEQUENCE "LS_DRAIN"    
+{ 
+
+  // ************************	
+  $CHANNEL 0
+  // ************************	
+
+
+  $CMD SET      
+  { 
+    velocity  7 
+    value 0.0 	     	
+    light LAMPSET "mainlights"  	 					   
+  }   	   
+      
+  $CMD DELAY 1.5   
+     
+  $CMD SET      
+  { 
+    velocity  7 
+    value 1.0 	     	
+    light LAMPSET "mainlights"  	 					   
+  }
+ 
+  // ************************	
+  $CHANNEL 1
+  // ************************	
+  
+  $CMD SCROLL   
+  { 
+    velocity 150
+    dir 0
+    left 8
+    middle 15
+    right 8
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps"  						   
+  }
+       
+  $CMD SCROLL   
+  { 
+    velocity -150
+    dir 0
+    left 8 
+    middle 15
+    right 8
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps" 						   
+  }
+
+  $CMD SCROLL   
+  { 
+    velocity -220 
+    dir 1
+    left 8
+    middle 15
+    right 8
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps" 						   
+  }
+
+}
+
+$LIGHTSEQUENCE "LS_bumper_lampice"    
+{ 
+  
+  // ************************	
+  $CHANNEL 0
+  // ************************	
+  
+  $CMD SCROLL   
+  { 
+    velocity  10  
+    variable  index 	
+    left 3
+    middle 2
+    right 3
+    xend  18
+    light LAMPSET "bumper_A" 						   
+  }
+
+  // ************************	
+  $CHANNEL 1
+  // ************************	
+  
+  $CMD DELAY 0.5
+  
+  $CMD SCROLL    
+  { 
+    velocity  10  
+    variable  index 	
+    left 2
+    middle 2
+    right 2
+    xend  18
+    light LAMPSET "bumper_B" 						   
+  }
+
+  // ************************	
+  $CHANNEL 2
+  // ************************	
+  
+    $CMD DELAY 1
+
+  
+  $CMD SCROLL    
+  { 
+    velocity  10  
+    variable  index 	
+    left 2
+    middle 2
+    right 2 
+    xend  18
+    light LAMPSET "bumper_C" 						   
+  }
+}
+
+$LIGHTSEQUENCE "LS_SCROLL#2"    
+{ 
+  
+  // ************************	
+  $CHANNEL 0
+  // ************************	
+  
+  $CMD SCROLL   
+  { 
+    velocity 130
+    dir 1
+    left 12
+    middle 13
+    right 12
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps" 						   
+  }
+       
+  $CMD SCROLL     
+  { 
+    velocity -130
+    dir 1
+    left 12
+    middle 13
+    right 12
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps" 						   
+  }
+
+  $CMD SCROLL   
+  { 
+    velocity 130
+    dir 0
+    left 12
+    middle 13
+    right 12
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps" 						   
+  }
+       
+  $CMD SCROLL   
+  { 
+    velocity -130
+    dir 0
+    left 12
+    middle 13
+    right 12
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps" 						   
+  }
+
+  // ************************	
+  $CHANNEL 1
+  // ************************	
+
+  $CMD SCROLL   
+  { 
+    velocity  0.2  
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "alarm" 						   
+  }
+
+  $CMD REPEAT       
+  { 
+    start 0
+    count 6	       
+  }
+
+
+  // ************************	
+  $CHANNEL 2
+  // ************************	
+
+  $CMD SCROLL   
+  { 
+    velocity  0.2 
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "siren" 						   
+  }
+
+  $CMD REPEAT       
+  { 
+    start 0
+    count 6	       
+  }
+
+  // ************************	
+  $CHANNEL 3
+  // ************************	
+
+
+  $CMD SET      
+  { 
+    velocity  7 
+    value 0.0	     	
+    light LAMPSET "mainlights"  	 					   
+  }   	   
+      
+  $CMD DELAY 5
+     
+  $CMD SET      
+  { 
+    velocity  7 
+    value 1.0 	     	
+    light LAMPSET "mainlights"  	 					   
+  }
+}
+
+
+///////////////////////////RAMP LIGHT SEQUENCES/////////////////////////
+
+
+
+$LIGHTSEQUENCE "LS_ALARM"      
+{ 
+  
+  
+  // ************************	
+  $CHANNEL 0
+  // ************************	
+  
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "alarmled"  	 					   
+  }
+
+  
+   $CMD SET      
+  { 
+    velocity  5 
+    value 0.5    	
+    light LAMPSET "mainlights"  	 					   
+  }
+   
+  $CMD DELAY 0.4 
+  
+
+  $CMD SET      
+  { 
+    velocity  3 
+    value 0.0 	     	
+    light LAMPSET "alarmled"  	 					   
+  }
+  
+     
+ $CMD SET      
+  { 
+    velocity  5 
+    value 1.0   	
+    light LAMPSET "mainlights"  	 					   
+  }
+ 
+  
+  
+           
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+  
+  $CMD PIE    
+  { 
+    velocity 800
+    variable index 
+    left 70
+    middle 60 
+    right 70  
+    angle_min -200
+    angle_max 720
+    center 0 0 0   
+    light LAMPSET "alarm"
+    action "podesi crvenu lampu"      						   
+  }             
+       
+
+
+  // ************************	
+  $CHANNEL 3 
+  // ************************	
+
+
+  $CMD SET      
+  { 
+    velocity  10 
+    value 1.0 	     	
+    light LAMPSET "bumperlight_A"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity  5
+    value 0.0  	     	
+    light LAMPSET "bumperlight_A"  	 					   
+  }
+  
+  $CMD REPEAT      
+  { 
+    start 0
+    count 1
+  }
+  
+  // ************************	
+  $CHANNEL 4 
+  // ************************	
+
+  //$CMD DELAY 0.2
+  
+  $CMD SET      
+  { 
+    velocity  10 
+    value 1.0 	     	
+    light LAMPSET "bumperlight_B"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity  5
+    value 0.0  	     	
+    light LAMPSET "bumperlight_B"  	 					   
+  }
+  
+  $CMD REPEAT      
+  { 
+    start 0
+    count 2
+  }
+  
+  
+    // ************************	
+  $CHANNEL 5 
+  // ************************	
+
+  //$CMD DELAY 0.2
+  
+  $CMD SET      
+  { 
+    velocity  10 
+    value 1.0 	     	
+    light LAMPSET "bumperlight_C"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity 5
+    value 0.0  	     	
+    light LAMPSET "bumperlight_C"  	 					   
+  }
+  
+  $CMD REPEAT      
+  { 
+    start 0
+    count 3
+  }
+
+
+
+  // ************************	
+  $CHANNEL 6 
+  // ************************	
+
+
+  $CMD SCROLL   
+  { 
+    velocity -140
+    dir 1
+    left 8
+    middle 15
+    right 50
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps" 						   
+  }
+
+	$CHANNEL 7
+
+	$CMD SCROLL 
+   {
+    velocity  50  
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_LAMPS" 	 					   
+  }	 
+
+  $CMD REPEAT 
+  {
+    start 0
+    count 5
+  }	    	   	   
+}
+
+
+}
+
+$LIGHTSEQUENCE "LS_SIREN"      
+{ 
+  
+  
+  // ************************	
+  $CHANNEL 0
+  // ************************	
+  
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "sirenled"  	 					   
+  }
+
+  
+   $CMD SET      
+  { 
+    velocity  5 
+    value 0.9    	
+    light LAMPSET "mainlights"  	 					   
+  }
+   
+  $CMD DELAY 0.4
+  
+
+  $CMD SET      
+  { 
+    velocity  3 
+    value 0.0 	     	
+    light LAMPSET "sirenled"  	 					   
+  }
+  
+     
+ $CMD SET      
+  { 
+    velocity  5 
+    value 1.0   	
+    light LAMPSET "mainlights"  	 					   
+  }
+ 
+  
+  
+           
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+  
+  $CMD PIE   
+  { 
+    velocity 800
+    variable index 
+    left 70
+    middle 60 
+    right 70  
+    angle_min -200
+    angle_max 720
+    center 0 0 0   
+    light LAMPSET "siren"
+    action "podesi plavu lampu"      						   
+  }             
+       
+
+
+
+  // ************************	
+  $CHANNEL 3 
+  // ************************	
+
+
+  $CMD SET      
+  { 
+    velocity  10 
+    value 1.0 	     	
+    light LAMPSET "bumperlight_A"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity  5
+    value 0.0  	     	
+    light LAMPSET "bumperlight_A"  	 					   
+  }
+  
+  $CMD REPEAT      
+  { 
+    start 0
+    count 1
+  }
+  
+  // ************************	
+  $CHANNEL 4 
+  // ************************	
+
+  //$CMD DELAY 0.2
+  
+  $CMD SET      
+  { 
+    velocity  10 
+    value 1.0 	     	
+    light LAMPSET "bumperlight_B"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity  5
+    value 0.0  	     	
+    light LAMPSET "bumperlight_B"  	 					   
+  }
+  
+  $CMD REPEAT        
+  { 
+    start 0
+    count 2  
+  }
+  
+  
+    // ************************	
+  $CHANNEL 5 
+  // ************************	
+
+  //$CMD DELAY 0.2
+  
+  $CMD SET      
+  { 
+    velocity  10 
+    value 1.0 	     	
+    light LAMPSET "bumperlight_C"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity 5
+    value 0.0  	     	
+    light LAMPSET "bumperlight_C"  	 					   
+  }
+  
+  $CMD REPEAT      
+  { 
+    start 0
+    count 3
+  }
+
+  // ************************	
+  $CHANNEL 6 
+  // ************************	
+
+
+  $CMD SCROLL   
+  { 
+    velocity -140
+    dir 1
+    left 8
+    middle 15
+    right 50
+    xstart 0			
+    xend 0			
+    light LAMPSET "all_lamps" 						   
+  }
+
+
+
+	$CHANNEL 7
+
+	$CMD SCROLL 
+   {
+    velocity  50  
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_LAMPS" 	 					   
+  }	 
+
+  $CMD REPEAT 
+  {
+    start 0
+    count 5
+  }	    	   	   
+}
+
+
+}
+
+$LIGHTSEQUENCE "LS_SPINNER01"      
+{ 
+
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "SPINNER01"  	 					   
+  }
+  
+  $CMD SET       
+  { 
+    velocity  4
+    value 0.0  	     	
+    light LAMPSET "SPINNER01"  	 					   
+  }
+  
+  $CHANNEL 2
+	
+  $CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_BANK" 	 					   
+  }	 
+
+
+
+}
+
+$LIGHTSEQUENCE "LS_SPINNER02"      
+{ 
+
+
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+
+
+
+  $CMD SET      
+  { 
+    velocity  100
+    value 1.0 	     	
+    light LAMPSET "SPINNER02"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity  4
+    value 0.0  	     	
+    light LAMPSET "SPINNER02"  	 					   
+  }
+  
+  	$CHANNEL 2
+	
+		$CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_LEFT" 	 					   
+  }	 
+
+
+}
+
+
+$LIGHTSEQUENCE "LS_SPINNER03"      
+{ 
+
+
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+
+
+
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "SPINNER03"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity  4
+    value 0.0  	     	
+    light LAMPSET "SPINNER03"  	 					   
+  }
+  
+
+	$CHANNEL 2
+	
+		$CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_RIGHT" 	 					   
+  }	 
+
+
+}
+
+
+$LIGHTSEQUENCE "LS_SPINNER04"      
+{ 
+
+
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+
+
+
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "SPINNER04"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity  4
+    value 0.0  	     	
+    light LAMPSET "SPINNER04"  	 					   
+  }
+  
+  	$CHANNEL 2
+	
+		$CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_SAFE" 	 					   
+  }	 
+
+
+}
+
+$LIGHTSEQUENCE "LS_SPINNER05"      
+{ 
+
+
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+
+
+
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "SPINNER05"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity  4
+    value 0.0  	     	
+    light LAMPSET "SPINNER05"  	 					   
+  }
+  
+  	$CHANNEL 2
+	
+		$CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_BANK" 	 					   
+  }	 
+
+
+}
+
+$LIGHTSEQUENCE "LS_SPINNER06"      
+{ 
+
+
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+
+
+
+  $CMD SET      
+  { 
+    velocity  100
+    value 1.0 	     	
+    light LAMPSET "SPINNER06"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity  4
+    value 0.0  	     	
+    light LAMPSET "SPINNER06"  	 					   
+  }
+  
+  	$CHANNEL 2
+	
+		$CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_LEFT" 	 					   
+  }	 
+
+
+}
+
+
+$LIGHTSEQUENCE "LS_SPINNER07"      
+{ 
+
+
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+
+
+
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "SPINNER07"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity  4
+    value 0.0  	     	
+    light LAMPSET "SPINNER07"  	 					   
+  }
+  
+	$CHANNEL 2
+	
+		$CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_RIGHT" 	 					   
+  }	 
+
+
+}
+
+
+$LIGHTSEQUENCE "LS_SPINNER08"      
+{ 
+
+
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+
+
+
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "SPINNER08"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity 4
+    value 0.0  	     	
+    light LAMPSET "SPINNER08"  	 					   
+  }
+ 
+ 	$CHANNEL 2
+	
+		$CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_SAFE" 	 					   
+  }	 
+ 
+
+}
+
+
+$LIGHTSEQUENCE "LS_SPINNER09"      
+{ 
+
+
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+
+  $CMD SET      
+  { 
+    velocity  100
+    value 1.0 	     	
+    light LAMPSET "SPINNER09"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity  4
+    value 0.0  	     	
+    light LAMPSET "SPINNER09"  	 					   
+  }
+  
+
+
+	$CHANNEL 2
+	
+		$CMD SCROLL 
+   {
+    velocity  20   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "Ls_BIG_SAFE" 	 					   
+  }	 
+
+
+}
+
+
+$LIGHTSEQUENCE "LS_IN_BANK"      
+{ 
+
+
+  // ************************	
+  $CHANNEL 0
+  // ************************	
+
+  $CMD SET      
+  { 
+    velocity  100
+    value 1.0 	     	
+    light LAMPSET "LS_BIG_BANK"  	 					   
+  }
+  $CMD SET       
+  { 
+    velocity  10
+    value 0.0  	     	
+    light LAMPSET "LS_BIG_BANK"  	 					   
+  }
+  
+	$CMD REPEAT 
+  {
+    start 0
+    count 4
+  }	
+  
+    $CMD SET       
+  { 
+    velocity  10
+    value 1  	     	
+    light LAMPSET "LS_BIG_BANK"  	 					   
+  }
+  
+  
+      $CMD SET       
+  { 
+    velocity  3
+    value 0  	     	
+    light LAMPSET "LS_BIG_BANK"  	 					   
+  }
+
+	$CMD SET       
+  { 
+    velocity  3
+    value 1  	     	
+    light LAMPSET "BANK_LOCK"  	 					   
+  }
+ // ************************	
+  $CHANNEL 5 
+  // ************************	
+      	   	   
+	$CMD SET       
+  { 
+    velocity  2
+    value 1  	     	
+    light LAMPSET "BANK_LOCK"  	 					   
+  }
+
+	$CMD SET       
+  { 
+    velocity  4
+    value 0  	     	
+    light LAMPSET "BANK_LOCK"  	 					   
+  }
+  
+  $CMD SET       
+  { 
+    velocity  2
+    value 1  	     	
+    light LAMPSET "BANK_LOCK"  	 					   
+  }
+  
+  	$CMD SET       
+  { 
+    velocity  4
+    value 0  	     	
+    light LAMPSET "BANK_LOCK"  	 					   
+  }
+ 
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+
+	  $CMD PIE   
+  { 
+    velocity 1200
+    variable index 
+    left 70
+    middle 60 
+    right 70  
+    angle_min -200
+    angle_max 720
+    center 0 0 0   
+    light LAMPSET "LAMP_BANK"
+
+  }             
+
+
+  $CMD SCROLL   
+  { 
+    velocity -300
+    dir 1
+    left 8
+    middle 15
+    right 50
+    xstart 0			
+    xend 0			
+    light LAMPSET "LAMP_BANK" 						   
+  }
+
+	$CMD SET
+	{
+	velocity 10
+	value 1
+	light LAMPSET "LAMP_BANK"
+	}
+
+
+  // ************************	
+  $CHANNEL 3 
+  // ************************	
+         
+
+  $CMD SCROLL   
+  { 
+    velocity  -50
+    dir 0
+    left 4
+    middle 3
+    right 4
+			
+    light LAMPSET "modes_upper" 						   
+  }	 
+  $CMD SCROLL   
+  { 
+    velocity  50
+    dir 0
+    left 4
+    middle 3
+    right 4
+    light LAMPSET "modes_upper" 						   
+  }
+
+
+
+
+  // ************************	
+  $CHANNEL 4
+  // ************************	
+
+  $CMD SCROLL   
+  { 
+    velocity  50
+    dir 0
+    left 4
+    middle 3
+    right 4
+			
+    light LAMPSET "modes_down" 						   
+  }	 
+  $CMD SCROLL   
+  { 
+    velocity  -50
+    dir 0
+    left 4
+    middle 3
+    right 4
+    light LAMPSET "modes_down" 						   
+  }
+
+}
+
+
+$LIGHTSEQUENCE "LS_LOOP"         
+{   
+  // ************************	
+  $CHANNEL 0 
+  // ************************	
+         
+   
+  $CMD SCROLL   
+  { 
+    velocity  40 
+    dir 1
+    left 4
+    middle 3
+    right 4
+			
+    light LAMPSET "left_loop" 						   
+  }	 
+  
+ // ************************	
+  $CHANNEL 1 
+  // ************************	
+       	
+  $CMD SCROLL       
+  { 
+    velocity  40  
+    dir 1
+    left 4
+    middle 3
+    right 4
+    light LAMPSET "right_loop" 						   
+  }
+  
+    
+  			 
+  // ************************	
+  $CHANNEL 2 
+  // ************************	
+     
+   
+   $CMD SET      
+  { 
+    velocity  6 
+    value 0   	
+    light LAMPSET "mainlights"  	 					   
+  }
+
+  $CMD DELAY 0.6
+	
+  $CMD SET      
+  { 
+    velocity  6 
+    value 1   	
+    light LAMPSET "mainlights"  	 					   
+  } 
+  
+   $CHANNEL 3
+		
+   $CMD SCROLL 
+   {
+    velocity  40   
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_LAMPS" 	 					   
+  }	  
+
+}
+
+
+$LIGHTSEQUENCE "LS_BONUS"         
+{   
+  // ************************	
+  $CHANNEL 0 
+  // ************************	
+         
+   
+  $CMD SCROLL   
+  { 
+    velocity  40 
+    dir 1
+    left 4
+    middle 3
+    right 4
+			
+    light LAMPSET "left_loop" 						   
+  }	 
+  
+ // ************************	
+  $CHANNEL 1 
+  // ************************	
+       	
+  $CMD SCROLL       
+  { 
+    velocity  40  
+    dir 1
+    left 4
+    middle 3
+    right 4
+    light LAMPSET "right_loop" 						   
+  }
+  
+    
+  			 
+  // ************************	
+  $CHANNEL 2 
+  // ************************	
+     
+   
+   $CMD SET      
+  { 
+    velocity  6 
+    value 0   	
+    light LAMPSET "mainlights"  	 					   
+  }
+
+  $CMD DELAY 0.6
+	
+  $CMD SET      
+  { 
+    velocity  6 
+    value 1   	
+    light LAMPSET "mainlights"  	 					   
+  } 
+
+}
+
+$LIGHTSEQUENCE "LS_WAYOUT01"      
+{ 
+
+  // ************************	
+  $CHANNEL 0 
+  // ************************	
+
+
+   $CMD SET      
+  { 
+    velocity  3 
+    value 0   	
+    light LAMPSET "mainlights"  	 					   
+  }
+
+	$CMD DELAY 0.2
+	
+	 $CMD SET      
+  { 
+    velocity  3 
+    value 1   	
+    light LAMPSET "mainlights"  	 					   
+  }
+
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+
+
+   $CMD SET      
+  { 
+    velocity  70
+    value 0  	
+    light LAMPSET "all_lamps"  	 					   
+  }
+
+   $CMD SET      
+  { 
+    velocity  2
+    value 1  	
+    light LAMPSET "all_lamps"  	 					   
+  }
+
+   $CMD SET      
+  { 
+    velocity  2
+    value 0  	
+    light LAMPSET "all_lamps"  	 					   
+  }
+
+
+}
+
+$LIGHTSEQUENCE "LS_SNEAKIN_DEFAULT"      
+{
+	/////////////
+	$CHANNEL 0
+	////////////
+	  
+   $CMD SET      
+  { 
+    velocity  5 
+    value 0.9    	
+    light LAMPSET "mainlights"  	 					   
+  }
+   
+  $CMD DELAY 0.4
+  
+
+  $CMD SET      
+  { 
+    velocity  3 
+    value 0.0 	     	
+    light LAMPSET "sirenled"  	 					   
+  }
+  
+     
+ $CMD SET      
+  { 
+    velocity  5 
+    value 1.0   	
+    light LAMPSET "mainlights"  	 					   
+  }
+ 
+
+	/////////////////
+	$CHANNEL 2
+	/////////////////	
+	
+	$CMD SCROLL 
+   {
+    velocity 70
+    variable  index 	
+    left 1
+    middle 1
+    right 1 
+    light LAMPSET "LS_BIG_LAMPS" 	 					   
+  }	 
+
+  $CMD REPEAT 
+  {
+    start 0
+    count 2
+  }	    	   	   
+
+	/////////////////
+	$CHANNEL 1
+	/////////////////	
+
+  $CMD PIE   
+  { 
+    velocity  400 
+    left 70
+    middle 130 
+    right 70 
+    angle_min 0
+    angle_max 360
+    center 0 0 0   
+    light LAMPSET "all_lamps"      						   
+  } 
+
+
+  // ************************	
+  $CHANNEL 3
+  // ************************	
+  
+     
+  $CMD SET      
+  { 
+    velocity  70
+    value 1.0 	     	
+    light LAMPSET "alarmled"  	 					   
+  }
+ 
+ 
+  $CMD SET      
+  { 
+    velocity  1 
+    value 0     	
+    light LAMPSET "mainlights"  	 					   
+  }
+ 
+  
+
+  $CMD SET      
+  { 
+    velocity  3 
+    value 0.0 	     	
+    light LAMPSET "alarmled"  	  					   
+  }
+   
+ $CMD SET      
+  { 
+    velocity  1 
+    value 1   	
+    light LAMPSET "mainlights"  	 					   
+  }
+
+
+
+           
+  // ************************	
+  $CHANNEL 4 
+  // ************************	
+  
+  $CMD PIE   
+  { 
+    velocity 800
+    variable index 
+    left 70
+    middle 60 
+    right 70  
+    angle_min -200
+    angle_max 360
+    center 0 0 0   
+    light LAMPSET "alarm"
+    action "podesi crvenu lampu"      						   
+  }             
+       
+
+
+
+
+  // ************************	
+  $CHANNEL 5
+  // ************************	
+  
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "sirenled"  	 					   
+  }
+
+  
+   $CMD SET      
+  { 
+    velocity  5 
+    value 0.9    	
+    light LAMPSET "mainlights"  	 					   
+  }
+   
+  $CMD DELAY 0.4
+  
+
+  $CMD SET      
+  { 
+    velocity  3 
+    value 0.0 	     	
+    light LAMPSET "sirenled"  	 					   
+  }
+  
+     
+ $CMD SET      
+  { 
+    velocity  5 
+    value 1.0   	
+    light LAMPSET "mainlights"  	 					   
+  }
+ 
+  
+  
+           
+  // ************************	
+  $CHANNEL 6 
+  // ************************	
+  
+  $CMD PIE   
+  { 
+    velocity 800
+    variable index 
+    left 70
+    middle 60 
+    right 70  
+    angle_min -200
+    angle_max 360
+    center 0 0 0   
+    light LAMPSET "siren"
+    action "podesi plavu lampu"      						   
+  }             
+
+
+
+}
+
+
+$LIGHTSEQUENCE "LS_LSLINGER"      
+{
+
+  // ************************	
+  $CHANNEL 0 
+  // ************************	
+
+  
+  $CMD SET      
+  { 
+    velocity  11
+    value 1 	     	
+    light LAMPSET "LSLINGER"  	 					   
+  }
+  
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+
+  
+  $CMD SET      
+  { 
+    velocity  11
+    value 1 	     	
+    light LAMPSET "LS_BIG_RIGHT"  	 					   
+  }
+
+
+}
+
+
+$LIGHTSEQUENCE "LS_RSLINGER"      
+{
+
+  // ************************	
+  $CHANNEL 0 
+  // ************************	
+
+  $CMD SET      
+  { 
+    velocity  11
+    value 1 	     	
+    light LAMPSET "RSLINGER"  	 					   
+  }
+  
+  // ************************	
+  $CHANNEL 1
+  // ************************	
+
+  
+  $CMD SET      
+  { 
+    velocity  11
+    value 1 	     	
+    light LAMPSET "LS_BIG_LEFT"  	 					   
+  }
+
+	
+}
+
+//$LIGHTSEQUENCE "LS_LEFT_TARGETS"      
+//{
+//  $CMD SET      
+//  { 
+//    velocity  11
+//    value 1 	     	
+//    light LAMPSET "LEFT_TARGETS"  	 					   
+//  }
+
+//}
+
+$LIGHTSEQUENCE "LS_UNDERGROUND"
+{
+ // ************************	
+  $CHANNEL 0
+  // ************************	
+  
+    $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "sirenled"   	 					   
+  }
+
+ $CMD SET            
+  { 
+    velocity  5
+    value 0.0   	
+    light LAMPSET "mainlights"  	 					   
+  }  
+  
+   
+  $CMD DELAY 0.8 
+  
+
+  $CMD SET       
+  { 
+    velocity  3 
+    value 0.0 	     	
+    light LAMPSET "sirenled"  	 					   
+  }
+  
+     
+ $CMD SET            
+  { 
+    velocity  5
+    value 1.0   	
+    light LAMPSET "mainlights"  	 					   
+  }  
+
+ 
+  // ************************	
+  $CHANNEL 1
+  // ************************	
+  
+	$CMD SCROLL 
+   {
+    velocity  100   
+    variable  index 	
+    left 2
+    middle 4
+    right 2 
+    light LAMPSET "LS_BIG_BANK" 	 					   
+  }
+  
+  	$CMD SCROLL 
+   {
+    velocity  100   
+    variable  index 	
+    left 2
+    middle 4
+    right 2 
+    light LAMPSET "LS_BIG_LEFT" 	 					   
+  }
+  
+    $CMD REPEAT 
+  {
+    start 0
+    count 3
+  }
+
+ 
+ 
+  // ************************	
+  $CHANNEL 2
+  // ************************	
+  
+  $CMD PIE   
+  { 
+    velocity 800
+    variable index 
+    left 70
+    middle 60 
+    right 70  
+    angle_min -200
+    angle_max 360
+    center 0 0 0    
+    light LAMPSET "siren"
+    action "podesi plavu lampu"      						   
+  }
+  
+  // ************************ 	  
+  $CHANNEL 3
+  // ************************
+  
+    $CMD SCROLL 
+  {
+    velocity  40   
+    variable  index 	
+    left 4
+    middle 8
+    right 4 
+    light LAMPSET "UNDERGROUND" 	 					   
+  }
+  
+  $CMD REPEAT 
+  {
+    start 0
+    count 1
+  }
+
+}
+
+
+
+$LIGHTSEQUENCE "LS_UNDERGROUND_READY"
+{
+  
+  // ************************ 	  
+  $CHANNEL 0
+  // ************************
+  
+  $CMD SCROLL 
+  {
+    velocity  40   
+    variable  index 	
+    left 4
+    middle 8
+    right 4 
+    light LAMPSET "UNDERGROUND_READY" 	 					   
+  }
+  	
+  $CMD REPEAT  
+  {
+    start 0
+    count 100000 
+  }
+
+}
+
+
+$LIGHTSEQUENCE "LS_UNDERGROUND_READY_FOR_CALLS"
+{
+  
+  // ************************ 	  
+  $CHANNEL 0
+  // ************************
+  
+  $CMD SCROLL 
+  {
+    velocity  40   
+    variable  index 	
+    left 4
+    middle 8
+    right 4 
+    light LAMPSET "UNDERGROUND_READY" 	 					   
+  }
+  	
+  $CMD REPEAT  
+  {
+    start 0
+    count 100000 
+  }
+
+}
+ 
+
+$LIGHTSEQUENCE "LS_USPINNER_LEFT"
+{
+  // ************************	
+  $CHANNEL 0 
+  // ************************	
+  
+  
+  $CMD SCROLL 
+  {
+    velocity  20   
+    variable  index 	
+    left 2
+    middle 4
+    right 2 
+    light LAMPSET "SPINNER" 	 					   
+  }
+  
+  
+  $CMD REPEAT 
+  {
+    start 0
+    count 10000
+  }
+
+  
+}
+
+
+$LIGHTSEQUENCE "LS_USPINNER_RIGHT"
+{
+  // ************************	
+  $CHANNEL 0 
+  // ************************	
+  
+  
+  $CMD SCROLL 
+  {
+    velocity  -20     
+    variable  index  	
+    left 2
+    middle 4
+    right 2 
+    light LAMPSET "SPINNER" 	 					   
+  }
+  
+  
+  $CMD REPEAT 
+  {
+    start 0
+    count 10000
+  }
+
+
+}
+
+
+$LIGHTSEQUENCE "LS_BIGSCORE_LEFT_UTURN"
+{
+  // ************************	
+  $CHANNEL 0 
+  // ************************	
+ 
+   
+
+  $CMD SCROLL 
+  {
+    velocity  20   
+    variable  index 	
+    left 2
+    middle 4
+    right 3
+    light LAMPSET "SPINNER_LEFT" 	 					   
+  } 
+  
+
+  
+}
+
+$LIGHTSEQUENCE "LS_BIGSCORE_RIGHT_UTURN" 
+{
+  // ************************	
+  $CHANNEL 0 
+  // ************************	
+  
+     
+  $CMD SCROLL 
+  {
+    velocity  20   
+    variable  index 	
+    left 2
+    middle 4
+    right 3
+    light LAMPSET "SPINNER_RIGHT" 	 					   
+  } 
+    
+  
+}
+
+
+$LIGHTSEQUENCE "LS_CALLS_UTURN" 
+{
+  // ************************	
+  $CHANNEL 0 
+  // ************************	
+     
+  $CMD SET      
+  { 
+    velocity  5 
+    value 1.0   	
+    light LAMPSET "SPINNER_ODD"        	 					   
+  }
+
+  $CMD DELAY 0.4
+
+  $CMD SET      
+  { 
+    velocity  5 
+    value 0.0   	
+    light LAMPSET "SPINNER_ODD"        	 					   
+  }
+
+  $CMD DELAY 0.4
+
+  $CMD REPEAT 
+  {
+    start 0
+    count 10000
+  }
+
+  // ************************	
+  $CHANNEL 1          
+  // ************************	
+  
+  $CMD DELAY 0.65
+
+  $CMD SET      
+  { 
+    velocity  5 
+    value 1.0   	
+    light LAMPSET "SPINNER_EVEN"        	 					   
+  }
+
+  $CMD DELAY 0.4
+
+  $CMD SET      
+  { 
+    velocity  5 
+    value 0.0   	
+    light LAMPSET "SPINNER_EVEN"        	 					   
+  }
+
+  $CMD DELAY 0.4
+
+  $CMD REPEAT 
+  {
+    start 1
+    count 10000
+  }
+   
+  	
+       
+}
+
+$LIGHTSEQUENCE "LS_CALLS_USPINNER"      
+{
+   // ************************	
+  $CHANNEL 0 
+  // ************************	
+    
+
+  $CMD SCROLL 
+  {
+    velocity  15
+    variable  index 	
+    left 1
+    middle 2
+    right 2
+    light LAMPSET "SPINNER_LEFT5" 	 					   
+  } 
+    
+  
+  $CMD REPEAT 
+  {
+    start 0
+    count 10000
+  }
+
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+    
+
+  $CMD SCROLL 
+  {
+    velocity  15
+    variable  index 	
+    left 1
+    middle 2
+    right 2
+    light LAMPSET "SPINNER_RIGHT5" 	 					   
+  } 
+ 
+  $CMD REPEAT 
+  {
+    start 0
+    count 10000
+  }
+   
+  // ************************	
+  $CHANNEL 2 
+  // ************************	  
+  
+  $CMD DELAY 0.4
+ 
+
+  $CMD REPEAT 
+  {
+    start 0
+    count 10000
+  }
+ 
+         
+}
+
+
+$LIGHTSEQUENCE "LS_MULTIBALL"      
+{
+   // ************************	
+  $CHANNEL 0 
+  // ************************	
+  
+    
+
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "alarmled"  	 					   
+  }
+ 
+  $CMD SET      
+  { 
+    velocity  100 
+    value 1.0 	     	
+    light LAMPSET "sirenled"  	 					   
+  }
+ 
+  $CMD SET      
+  { 
+    velocity  1 
+    value 0     	
+    light LAMPSET "mainlights"  	 					   
+  }
+       	
+    
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+  $CMD PIE   
+  { 
+    velocity 800
+    variable index 
+    left 70
+    middle 60 
+    right 70  
+    angle_min -200
+    angle_max 100000
+    center 0 0 0   
+    light LAMPSET "alarm"
+    action "podesi crvenu lampu"      						   
+  }             
+  
+        
+  // ************************	
+  $CHANNEL 2
+  // ************************	
+  
+  $CMD PIE   
+  { 
+    velocity 800
+    variable index 
+    left 70
+    middle 60 
+    right 70  
+    angle_min -200
+    angle_max 100000
+    center 0 0 0   
+    light LAMPSET "siren" 
+    action "podesi plavu lampu"      						   
+  }             
+	
+
+  // ************************	
+  $CHANNEL 3 
+  // ************************	
+  
+  $CMD SCROLL 
+  {
+    velocity  -20     
+    variable  index  	
+    left 2
+    middle 4
+    right 2 
+    light LAMPSET "LS_BIG_LAMPS"   	 					   
+  }
+ 
+  $CMD SCROLL 
+  {
+    velocity  20     
+    variable  index  	
+    left 2
+    middle 4
+    right 2 
+    light LAMPSET "LS_BIG_LAMPS" 	 					   
+  }
+  
+	  
+   	 
+  
+  $CMD REPEAT 
+  {
+    start 0
+    count 10000
+  }
+   	
+           
+}
+
+
+
+$LIGHTSEQUENCE "LS_FINAL"      
+{
+ // ************************	
+  $CHANNEL 0
+  // ************************	
+
+
+  $CMD SET       
+  { 
+    velocity  8
+    value 0.0  	     	
+    light LAMPSET "all_lamps"  	 					   
+  }
+
+
+  $CMD SET      
+  { 
+    velocity  8
+    value 1.0 	     	
+    light LAMPSET "all_lamps"  	 					   
+  }
+	   
+  
+  $CMD REPEAT 
+  {
+    start 0
+    count 10000
+  }  
+ 
+ 
+  // ************************	
+  $CHANNEL 1 
+  // ************************	
+  $CMD PIE   
+  { 
+    velocity 800
+    variable index 
+    left 70
+    middle 60 
+    right 70  
+    angle_min -200
+    angle_max 100000
+    center 0 0 0   
+    light LAMPSET "alarm"
+    action "podesi crvenu lampu"      						   
+  }             
+  
+        
+  // ************************	
+  $CHANNEL 2
+  // ************************	
+  
+  $CMD PIE   
+  { 
+    velocity 800
+    variable index 
+    left 70
+    middle 60 
+    right 70  
+    angle_min -200
+    angle_max 100000
+    center 0 0 0   
+    light LAMPSET "siren" 
+    action "podesi plavu lampu"      						   
+  }             
+ 
+           
+}

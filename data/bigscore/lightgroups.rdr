@@ -1,0 +1,26 @@
+
+#group "minimodes" { 
+  light LAMP_MINIMODE_BANK
+  light LAMP_MINIMODE_JAIL
+  light LAMP_MINIMODE_INOUT
+  light LAMP_MINIMODE_BOX
+  light LAMP_MINIMODE_CALL
+  light LAMP_MINIMODE_CHASE
+  light LAMP_MINIMODE_MONEY
+  light LAMP_MINIMODE_HACKIN  
+}        
+    
+#group "bank" { 
+  light LAMP_BANK_B
+  light LAMP_BANK_A
+  light LAMP_BANK_N
+  light LAMP_BANK_K 
+} 
+
+#group "key" { 
+  light LAMP_KEY_K
+  light LAMP_KEY_E
+  light LAMP_KEY_Y 
+} 
+
+  

@@ -1,0 +1,145 @@
+ 	
+// =================================================================== 
+// GAME CAMERA POSITIONS
+// =================================================================== 
+$Positions {
+  $NORMAL 0 -140 90
+  $CLOSE  0 -120 50
+  $FAR    0 -140 120
+  $LEFT   -50 -140 90
+  $RIGHT  50 -140 90
+}
+
+// =================================================================== 
+// GAME CAMERAS(MODES)
+// =================================================================== 
+
+$STATIC "orbit" {    
+
+  actionMode 0  
+  eyeMode STATIC 
+  targetMode STATIC 
+  
+  eye 0 -140 90  
+  tension 0.0 
+  orbit_strength 10000     
+}       
+    
+
+$DYNAMIC1 "orbit" {  
+
+  actionMode 0 
+  eyeMode ORBITAL
+  targetMode BALL
+
+  eye 0 -140 90   
+  tension 0.0
+  late 0.1 
+  orbit_strength 1
+  
+}    
+
+$DYNAMIC2 "orbit" {    
+
+  actionMode 0 
+  eyeMode ORBITAL
+  targetMode BALL 
+  
+  eye 0 -140 90   
+  tension 0.0
+  late 0.25 
+  orbit_strength 0.5 	  
+}    
+ 
+$ACTION1 "orbit" {    
+  
+  actionMode 1 
+  eyeMode STATIC 
+  targetMode STATIC 
+  
+  eye 0 -140 90      
+  tension 0.0    	  
+  orbit_strength 10000
+}       
+
+$ACTION2 "orbit" {      
+  
+  actionMode 1 
+  eyeMode ORBITAL 
+  targetMode BALL
+   
+  eye 0 -140 90      
+  tension 0.0   
+  late 0.1  	  
+  orbit_strength 1
+}         
+
+ 
+// =================================================================== 
+// ACTION CAMERAS
+// =================================================================== 
+ 
+$lcd "orbit" {  
+  type action 
+  actionMode 0  
+  eyeMode STATIC 
+  targetMode STATIC
+  
+  eye 0 -60 24   
+  tension 0.0
+  orbit_strength 10000    
+  track "LCD"  
+  actionMode 1 
+}     
+
+$lcd&ball "orbit" {  
+  type action 
+  actionMode 0 
+  eyeMode STATIC 
+  targetMode STATIC
+  
+  eye 0 -60 12   
+  tension 0.0
+  orbit_strength 10000    
+  track "LCD"  
+  actionMode 1 
+}     
+
+$plunger "orbit" {  
+  type action 
+  actionMode 0
+  eyeMode STATIC 
+  targetMode STATIC 
+ 
+  eye 35 -140 90   
+  tension 0.0
+  orbit_strength 10000   
+  //track "LampSiren"   
+  actionMode 1 
+}    
+ 
+$upperarea "orbit" {  
+  type action 
+  actionMode 0
+  eyeMode STATIC 
+  targetMode STATIC 
+  
+  eye 0 0 60   
+  tension 0.0
+  orbit_strength 10000    
+  track "bumper_C"    
+  
+}     
+
+$default "orbit" {  
+  type action 
+  actionMode 0 
+  eyeMode STATIC
+  targetMode BALL
+
+  eye 0 -140 90   
+  tension 0.0
+  late 0.1 
+  orbit_strength 1
+ }      
+  

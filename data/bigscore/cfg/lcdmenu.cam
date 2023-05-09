@@ -1,0 +1,33 @@
+	
+
+
+$motion eye {  
+   $key {
+	id 0
+	time 0.0 
+	value 0 -70 60
+	tension 0.5
+   }    
+   $key {
+	id 1
+	time 100000
+	value 0 -70 60 
+	tension 0.5
+   }    
+}    
+
+
+$motion target {  
+   $key {
+	id 0
+	time 0.0 
+	value 0 0 60
+	tension 0.5
+   }    
+   $key {
+	id 1
+	time 100000
+	value 0 0 60
+	tension 0.5
+   }    
+}    

@@ -1,0 +1,88 @@
+
+#mirror "floor_" { 
+  type 0
+  //axe 0 0 1    
+  //D 0
+  reflectivity 0.20 
+  reflect "ball_0"  
+  reflect "ball_1"   
+  reflect "ball_2"   
+  reflect "ball_3"   
+  reflect "ball_4"   
+  reflect "ball_5"   
+  reflect "flipper_left"  
+  reflect "flipper_right" 
+  reflect "flipper_up"   
+  reflect "bank" 
+  reflect "target_key_k"  
+  reflect "target_key_e" 
+  reflect "target_key_y" 
+  reflect "target_bank_b"  
+  reflect "target_bank_a"  
+  reflect "target_bank_n"  
+  reflect "target_bank_k"  
+  reflect "target_small_1"  
+  reflect "target_small_2" 
+  reflect "target_small_3" 
+  reflect "target_small_4" 
+  reflect "target_small_5"  
+  reflect "bumper_A"
+  reflect "bumper_B"
+  reflect "bumper_C"  
+  reflect "sling_left"  
+  reflect "sling_right" 
+  reflect "wheel"
+  reflect "wall_plasticni_stubici"  
+  reflect "wall_stubic_plastika"   
+  reflect "LAMP_WHEEL_1" 
+  reflect "LAMP_WHEEL_2" 
+  reflect "LAMP_WHEEL_3" 
+  reflect "LAMP_WHEEL_4" 
+  reflect "LAMP_WHEEL_5" 
+  reflect "LAMP_WHEEL_6" 
+  reflect "LAMP_WHEEL_7" 
+  reflect "LAMP_WHEEL_8" 
+  reflect "LAMP_WHEEL_9" 
+  reflect "LED_24"
+  reflect "LED_26"
+  reflect "LED_27"
+  reflect "LED_28"
+  reflect "LED_29"
+  reflect "LED_30"
+  reflect "LED_31"
+  reflect "LED_32"
+  reflect "LED_33"
+  reflect "LED_37"
+  reflect "LED_38"
+  reflect "LED_39"    
+  reflect "LED_40"    
+  reflect "LED_41"    
+  reflect "LED_48"     
+  reflect "LED_49"    
+  reflect "LED_50"    
+  reflect "LED_51"    
+  reflect "LED_52"    
+  reflect "LED_54"    
+  reflect "LED_55"    
+  reflect "LED_56"
+       
+}     
+ 
+ 
+#mirror "glass" {
+  type 1 
+  reflectivity 0.20
+  axe 0 -0.001 0.99
+  D  -19.45 
+//  axe 0 0 1
+//  D  0 
+  reflect "wall_plafon"  
+  reflect "wall_cube"     
+  reflect "gornja_tabla"   
+  reflect "LCD"    
+     
+   
+}    
+  	 
+
+  

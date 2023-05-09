@@ -1,0 +1,437 @@
+
+
+$rotator_centralramp {
+
+limit -22 
+up_speed 3
+down_speed 3
+rotation_axe 0 
+elasticity 0.2  
+   
+}  
+
+$rotator_rampa_tunel_L {
+
+limit -8  
+up_speed 3
+down_speed 3
+rotation_axe 0 
+  rolling_sound 1
+
+} 
+
+$rotator_rampa_tunel_R {
+
+limit -8   
+up_speed 3
+down_speed 3
+rotation_axe 0    
+  rolling_sound 1
+
+}  
+  
+  
+$rotator_rampbank_left {
+
+limit -89
+up_speed 3 
+down_speed 3
+rotation_axe 1
+ 
+}  
+
+$rotator_rampbank_right {   
+
+limit 89
+up_speed 3
+down_speed 3
+rotation_axe 1
+
+}  
+ 
+$rotator_sef {  
+
+limit 150
+up_speed 5
+down_speed 5
+rotation_axe 1
+
+}  
+
+
+$rotator_seflock {
+
+limit 360  
+up_speed 2
+down_speed 2
+rotation_axe 2 
+collision 0
+     
+}  
+
+$rotator_crvena_lampa {
+
+limit 360  
+up_speed  8
+down_speed 8
+rotation_axe 2
+start_angle 75
+   
+}  
+
+$rotator_plava_lampa { 
+
+limit 360  
+up_speed 8
+down_speed 8
+rotation_axe 2
+start_angle 75
+ 
+}  
+  
+
+
+$translator_jail {
+  elasticity 0.0	
+  release_time 100000 
+  dropsize 4.87  		
+}
+
+$translator_jail_resetke {
+  elasticity 0.0	
+  release_time 100000 
+  dropsize 4.87    
+    		 
+}
+
+$translator_centralramp { 
+  elasticity 0.0	
+  release_time 100000 
+  dropsize -0.555    
+    		 
+}
+
+
+
+$translator_bumper_A {
+
+down_speed 0 0 -80 
+up_speed 0 0 80
+release_time 0.05  
+drop 0  
+dropsize 1.5  
+ 		
+}
+
+$translator_bumper_B {
+
+down_speed 0 0 -80
+up_speed 0 0 80
+release_time 0.05  
+drop 0  
+dropsize 1.5  
+		
+}
+
+$translator_bumper_C {  
+
+down_speed 0 0 -80
+up_speed 0 0 80
+release_time 0.05
+drop 0  
+dropsize 1.5  
+		
+}
+
+
+$wheel {  
+       
+mass 0.2     
+elasticity 0.3
+impulse_multiplier 1 
+stability_force 0 
+//limit_omega 200
+//rot_friction -0.03
+  
+} 
+
+
+
+$kicker_drain {
+
+magnet_strength 50000 
+kick_strength 50 0 10  
+kickback 0 
+magnet 0
+locktimer_on 0 
+  
+} 
+
+$kicker_bank {  
+
+magnet_strength 50000 
+kick_strength 0 0 80   
+kickback 0 
+magnet 0
+locktimer_on 1
+locktime 0
+
+} 
+ 
+$kicker_start {
+
+kick_strength 40 0 10 
+kickback 1 
+magnet 0
+locktimer_on 0    
+locktime  100000
+pusher 0     
+
+ 
+} 
+
+$kicker_safe {
+
+kick_strength -30 -60 180 
+kickback 1  
+magnet 0
+locktimer_on 0    
+locktime  100000
+lift 2.8    
+} 
+ 
+$kicker_sneakin {
+
+kickback 0 
+magnet 0
+locktimer_on 1   
+locktime  0
+
+} 
+
+$kicker_underground {
+
+kick_strength 10 -50 0  
+kickback 1
+magnet 0
+locktimer_on 0    
+locktime  100000
+lift 0.8
+
+ 
+} 
+  
+$kicker_start_mode { 
+
+kick_strength -30 -50 0 
+kickback 1 
+magnet 0
+magnet_strength 50000
+magnet_range 5
+pusher 0   
+locktimer_on 0    
+locktime 2    
+ 
+} 
+
+
+$target_key_k {
+  drop 0	
+  elasticity 0.85
+} 
+$target_key_e {
+  drop 0
+  elasticity 0.85
+} 
+$target_key_y {
+  drop 0
+  elasticity 0.85
+} 
+
+$target_bank_b {
+  dropsize 2.566	
+}   
+$target_bank_a { 
+  dropsize 2.566		 
+} 
+$target_bank_n {
+  dropsize 2.566	
+} 
+$target_bank_k {
+  dropsize 2.566		
+} 
+
+$target_small_1 {
+  drop 0
+} 
+$target_small_2 {
+  drop 0
+} 
+$target_small_3 {
+  drop 0 
+} 
+$target_small_4 {
+  drop 0
+} 
+$target_small_5 {   
+  drop 0
+} 
+
+
+$bumper_A {
+    
+i_min 80
+i_max 120	
+  
+}
+
+
+$bumper_B {
+
+i_min 80
+i_max 120
+  
+}
+
+
+$bumper_C {
+
+i_min 80
+i_max 120	
+  
+}
+
+
+$wall_sliding01 {
+
+  elasticity 0.85
+  hit_sound 2
+ 
+}
+
+$wall_sliding02 {
+
+  elasticity 0.85
+  hit_sound 2
+  
+}
+$wall_sliding03 {
+
+  elasticity 0.85
+  hit_sound 2
+  
+}
+$wall_sliding04 {
+
+  elasticity 0.85
+  hit_sound 2
+  
+}
+$wall_sliding05 {
+
+  elasticity 0.85
+  hit_sound 2
+  
+}
+
+$wall_sliding06 {
+
+  elasticity 0.85
+   hit_sound 2
+ 
+}
+$wall_sliding07 {
+
+  elasticity 0.85
+   hit_sound 2
+  
+  
+}
+$wall_sliding08 {
+
+  elasticity 0.85
+   hit_sound 2
+ 
+}
+$wall_sliding09 {
+
+  elasticity 0.85
+   hit_sound 2
+ 
+}
+$wall_sliding10 {
+
+  elasticity 0.85
+    hit_sound 1
+
+}
+$wall_sliding11 {
+
+  elasticity 0.85
+    hit_sound 2
+
+}
+
+
+$wall_ostrvo_dole_D {
+
+  elasticity 0.8
+  //  hit_sound 1
+
+}
+
+$wall_dole_L {
+
+  elasticity 0.4
+//  hit_sound 1
+
+}
+
+$wall_dole_D {
+
+  elasticity 0.4
+ // hit_sound 1
+  
+}
+
+ 
+$wall_trougao_L {
+
+  elasticity 0.8
+    hit_sound 1
+
+}
+
+$wall_trougao_D {
+  
+  elasticity 0.8
+    hit_sound 1
+
+} 
+
+  
+$wall_rampaL {
+
+  elasticity 0.01
+  static_friction 0.4
+  dynamic_friction 0.4
+  rolling_sound 1
+}
+
+
+$wall_rampaR {  
+
+  elasticity 0.01
+  static_friction 0.4
+  dynamic_friction 0.4
+  rolling_sound 1
+}   
+
+
+$wall_startmod {    
+
+  elasticity 0.01
+  static_friction 0.4
+  dynamic_friction 0.4
+}   
+  

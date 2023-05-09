@@ -1,0 +1,300 @@
+
+ 
+#LAMP_WESTROAD {
+  pos -1.3 0.3 0
+  map "flare.tga" 
+  shinness 7.5 
+}  
+
+ 
+#light_bumper_A {
+  pos 0 0 0  
+  map "flare_yellow.tga"  
+  refl_map "flare_yellow.tga"     
+  reflection 0
+  shinness 40  
+}      
+
+#light_bumper_B {
+  pos 0 0 0  
+  map "flare_yellow.tga"  
+  refl_map "flare_yellow.tga"     
+  reflection 0
+  shinness 40  
+}      
+
+#light_bumper_C { 
+  pos 0 0 0  
+  map "flare_yellow.tga"  
+  refl_map "flare_yellow.tga"     
+  reflection 0
+  shinness 40  
+}      
+
+#light_big_bank {
+  pos 0 0 0  
+  map "flare_yellow.tga"  
+  refl_map "flare_yellow.tga"     
+  reflection 0
+  shinness 40  
+}      
+  
+#light_big_left {
+  pos 0 0 0  
+  map "flare_yellow.tga"  
+  refl_map "flare_yellow.tga"     
+  reflection 0
+  shinness 40  
+}      
+
+#light_big_right {
+  pos 0 0 0  
+  map "flare_yellow.tga"  
+  refl_map "flare_yellow.tga"     
+  reflection 0
+  shinness 40  
+}      
+
+#light_big_safe {
+  pos 0 0 0  
+//  map "flare_yellow.tga"  
+  //refl_map "flare_yellow.tga"     
+  map "flare_white.tga"  
+  refl_map "flare_white.tga"     
+  reflection 0
+  shinness 40  
+}      
+
+
+#LAMP_MINIMODE_STATUS {
+  pos 0 0 0  
+  map "flare_green.tga"  
+  refl_map "flare_green.tga"   
+  reflection 1
+  shinness 20  
+}      
+
+#LAMP_MODE_STATUS {
+  pos 0 0 0  
+  map "flare_yellow.tga"  
+  refl_map "flare_yellow.tga"     
+  reflection 1
+  shinness 20 
+} 
+
+#LAMP_MULTIBALL_STATUS {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  refl_map "prviflare.tga"   
+  reflection 1
+  shinness 20  
+} 
+
+
+#light_right_slinger {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  refl_map "prviflare.tga"  
+  reflection 1
+  shinness 30  
+} 
+
+#light_left_slinger {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 30 
+  reflection 1
+}
+
+#LED_44 {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 20 
+  reflection 1
+}
+
+#LED_55 {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 20  
+  reflection 1
+}
+
+#LED_37 {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 20 
+  reflection 1
+}
+#LED_38 {
+  pos 0 0 0     
+  map "prviflare.tga"  
+  shinness 20  
+  reflection 1
+}
+#LED_39 {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 20 
+  reflection 1
+}
+#LED_40 {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 20  
+  reflection 1
+}    
+
+  
+
+#light_left_targets {
+  pos 0 0 0   
+  map "prviflare.tga"  
+  shinness 30 
+  reflection 1
+}
+
+#LED_48 {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 20  
+  reflection 1
+}
+
+#LED_24 {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 20  
+  reflection 1
+}
+
+#LED_26 {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 20  
+  reflection 1
+}
+
+#LED_31 {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 20 
+  reflection 1
+}
+#LED_32 {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 20  
+  reflection 1
+}
+#LED_33 {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 20  
+  reflection 1
+}
+
+#LED_alarm {
+  pos 0 0 0  
+  map "prviflare.tga"  
+  shinness 40  
+//  reflection 1
+}
+
+#LED_siren {
+  pos 0 0 0   
+  map "prviflare.tga"  
+  shinness 40  
+//  reflection 1 
+}  
+
+
+#light_alarm_0 {
+  pos 0 0 0   
+  map "prviflare.tga"  
+  shinness 20   
+  reflection 0
+  child "LED_alarm"        	
+
+}
+
+#light_siren_0 { 
+  pos 0 0 0   
+  map "prviflare.tga"  
+  shinness 20  
+  reflection 0
+  child "LED_siren"      	
+}
+
+ 
+#light_mainlights {
+  pos 0 0 0   
+  map "prviflare.tga"  
+  shinness 20  
+  reflection 1
+  
+  child "LED_40" 
+  child "LED_39"
+  child "LED_38"
+  child "LED_37"
+  child "LED_55"
+  child "LED_44"
+  child "LED_31"   
+  child "LED_32"
+  child "LED_33"  
+  child "LED_24"
+  child "LED_26" 
+  child "LED_48"
+
+ }
+ 
+
+
+
+#LAMP_Logo_B {
+  pos 0 0 0  
+  map "flare_yellow.tga" 
+  shinness 7.5 
+}  
+
+#LAMP_Logo_I {
+  pos 0 0 0  
+  map "flare_yellow.tga" 
+  shinness 7.5 
+} 
+
+#LAMP_Logo_G {
+  pos 0 0 0  
+  map "flare_yellow.tga" 
+  shinness 7.5 
+} 
+
+#LAMP_Logo_S {
+  pos 0 0 0  
+  map "flare_yellow.tga" 
+  shinness 7.5 
+}  
+ 
+#LAMP_Logo_C {
+  pos 0 0 0  
+  map "flare_yellow.tga" 
+  shinness 7.5 
+} 
+
+#LAMP_Logo_O {
+  pos 0 0 0  
+  map "flare_yellow.tga" 
+  shinness 7.5 
+} 
+
+#LAMP_Logo_R {
+  pos 0 0 0  
+  map "flare_yellow.tga" 
+  shinness 7.5 
+} 
+
+#LAMP_Logo_E {
+  pos 0 0 0  
+  map "flare_yellow.tga" 
+  shinness 7.5 
+} 

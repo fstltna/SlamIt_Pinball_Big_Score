@@ -1,0 +1,1295 @@
+/*
+  VALUES: 
+              	 
+  refl    :this object is reflected in mirrors
+  env_reflection <file>  :this object is visible in environment reflection 
+  trans  :this object is translucent
+  shadow_cast  :this object casts shadow
+  shadow_recv  :this object recieves shadow
+  cast              : this object participates in global illumination (VALID ONLY FOR LIGHTS)  
+  shadow_tex <file>  :shadow texture used for shadow caster 
+  basetex <file>  :diffuse texture for object
+  mtl <mtl_name>  : material for object  	
+   
+  no_global_light  :this object dont use global lighting	
+  no_ztest         :this object dont use depth buffer test  	   
+  no_zwrite         :this object dont write depth buffer
+    
+
+*/ 
+ 
+ 
+// ===========================================================================
+// BALLS 
+// ===========================================================================
+
+#ball_0 {
+  //mtl "glass_thin"    
+  mtl "steelball_1"
+  cubemap "ball_cm_"
+  refl   
+  shadow_cast  
+  shadow_tex "shadow_ball.tga"  
+}
+#ball_1 {
+  mtl "steelball_2"
+  cubemap "ball_cm_"  
+  refl  
+  shadow_cast  
+  shadow_tex "shadow_ball.tga"   
+}
+#ball_2 {
+  mtl "steelball_3"
+  cubemap "ball_cm_"    
+  refl    
+  shadow_cast  
+  shadow_tex "shadow_ball.tga"  
+ 
+}
+#ball_3 {
+  mtl "steelball_4"
+  cubemap "ball_cm_"
+  refl  
+  shadow_cast  
+  shadow_tex "shadow_ball.tga"  
+}  
+	 
+#ball_4 {
+  mtl "steelball_5"
+  cubemap "ball_cm_"
+  refl  
+}
+#ball_5 {
+  mtl "steelball_6"
+  cubemap "ball_cm_"
+  refl  
+}
+
+
+#player {
+   trans
+}
+
+#Box02 {
+  basetex "test1.tga"
+  basetex2 "wall_cube_LightingMap.tga"
+  visible 0   
+  no_global_light
+}
+
+
+
+
+// ===========================================================================
+// FLOOR 
+// ===========================================================================
+
+#floor_ { 
+  basetex "fliperfin11.tga" 
+  env_reflection 
+  shadow_recv
+  no_zwrite   
+  layer 3    
+  blend 1
+}   
+  
+// ===========================================================================
+// BUMPERS      
+// ===========================================================================
+
+#bumper_A {
+   //trans
+   basetex "fliperfin11.tga" 
+   //selfillum "bumper_selfillum.tga" 
+   //cubemap "bumper_01_cm_"
+   //refl
+}
+  
+#bumper_B {
+   //trans
+   basetex "fliperfin11.tga"   
+   //selfillum "bumper_selfillum.tga" 
+   //cubemap "bumper_02_cm_"
+   //refl
+}
+ 
+#bumper_C { 
+   //trans
+   basetex "fliperfin11.tga"   
+   //selfillum "bumper_selfillum.tga"  
+   //cubemap "bumper_03_cm_"
+   //refl
+} 
+
+#translator_bumper_A {
+// mtl "glass_thin"   
+ basetex "rampa_L.tga" 
+
+}
+
+#translator_bumper_B { 
+// mtl "glass_thin"    
+ basetex "rampa_L.tga" 
+}
+
+#translator_bumper_C { 
+// mtl "glass_thin"   
+ basetex "rampa_L.tga" 
+}
+
+
+// ===========================================================================
+// GATE & SPINNER
+// ===========================================================================
+
+#gate_loop {
+   mtl "metal_steelscrew" 
+} 
+
+  
+#wheel_down {
+       
+   parent "wheel"          
+ 
+} 
+
+#wheel { 
+ layer 0
+}   
+
+
+// ===========================================================================
+// SLINGS     
+// ===========================================================================
+ 
+#sling_left {
+ mtl "softrubber_leftsling"
+ basetex "rubber.tga"    
+} 
+
+#sling_right {  
+ mtl "softrubber_rightsling"
+ basetex "rubber.tga"   
+
+} 
+ 
+// ===========================================================================
+// PLUNGER,KICKER,FLIPER   
+// ===========================================================================
+   
+#plunger_01 {
+ mtl "metal_steelscrew"
+}
+
+#fliper_left {
+ basetex "fliperfin11.tga"  
+ refl    
+}
+
+#fliper_right {
+ basetex "fliperfin11.tga"  
+ refl    
+}
+
+#fliper_up {
+ basetex "fliperfin11.tga"  
+ refl    
+}
+
+// ===========================================================================
+// WALLS
+// ===========================================================================
+
+ 
+#wall_rampaL {
+ //mtl "metal_steelframe"
+ mtl "glass_thin"   
+ trans 
+ basetex "lamp_blue.tga"  
+}  
+
+
+#wall_rampaR {  
+// mtl "metal_steelframe"
+ mtl "glass_thin"   
+ trans  
+ basetex "lamp_red.tga"   
+} 
+  
+#wall_trougao_L {
+// trans
+ basetex "fliperfin11.tga" 
+}
+
+#wall_trougao_D {
+// trans
+ basetex "fliperfin11.tga"  
+}
+
+#wall_ostrvo_dole_L {
+ //trans
+ basetex "fliperfin11.tga"  
+}
+
+#wall_ostrvo_dole_D {
+ //trans 
+ basetex "fliperfin11.tga" 
+}   
+
+#wall_sefmask {
+ basetex "led.tga"     
+
+}
+
+#group_tack {
+ mtl "metal_steelscrew"
+ }
+
+#translator_jail { 
+ basetex "fliperfin11.tga" 
+}
+
+// ===========================================================================
+// LAMPS 
+// ===========================================================================
+  
+#crvena_lampa {
+ mtl "glass_thin"   
+ //mtl "metal_steelscrew"
+ trans 
+ basetex "rampa_L.tga" 
+}  
+   
+#plava_lampa { 
+  mtl "glass_thin"   
+ trans 
+ basetex "rampa_R.tga" 
+}  
+ 
+#metal_zicedesnaram01 { 
+ mtl "metal_steelscrew"
+}
+  
+#metal_zi00 { 
+ mtl "metal_steelscrew"  
+}
+
+#Shape02 {
+ mtl "metal_steelscrew"
+ 
+}
+
+
+// ===========================================================================
+// BOX 
+// ===========================================================================
+
+     
+#Object03 {
+  //mtl "metal_steelscrew"
+  basetex "stafla.tga"  
+  no_global_light  
+  layer 1    
+}
+
+#kutija {
+  mtl "metal_kutija"
+  no_global_light  
+//  basetex "specular.tga" 
+  lmap "fliper_room.tga" 
+  under   
+  layer 1       
+}  
+ 
+#glass { 
+  no_global_light  
+//  mtl "glass_thin" 
+//  mtl "metal_steelscrew" 
+  //trans 
+  basetex "glass.tga"    
+  visible 0
+  blend 1        
+ }    
+
+#fliper_box {
+   mtl "wall_room"
+   no_global_light  
+   lmap "fliper_room.tga"
+   under 
+   layer 1                     
+}    
+
+#glass {
+   no_global_light  
+   lmap "fliper_room.tga"                 
+}    
+
+#poster {
+   mtl "wall_room"   
+   no_global_light  
+   lmap "fliper_room.tga"                 
+   ref_system -1
+ 
+}
+
+ 
+#poklopci_zvucnici {
+   //mtl "wall_room"
+   no_global_light  
+   lmap "fliper_room.tga"                
+  //level1    
+   ref_system 1
+}   
+
+
+#Object11 {
+   mtl "wall_room"
+   no_global_light  
+   lmap "fliper_room.tga"                 
+   under 
+   layer 1                   
+   ref_system -1
+}    
+ 
+#Object10 {
+   mtl "wall_room"
+   basetex "inventar.tga"
+   no_global_light  
+   lmap "fliper_room.tga"
+   under 
+   layer 1
+   ref_system -1
+                     
+}    
+
+#rucica_plunger {
+   basetex "inventar.tga"
+   no_global_light  
+   lmap "fliper_room.tga"
+   under 
+   layer 1                   
+}    
+
+#nogice {
+   mtl "wall_room"
+   basetex "inventar.tga"
+   no_global_light  
+   lmap "fliper_room.tga"
+   under 
+   layer 1                   
+}
+
+
+
+// ===========================================================================
+// DISPLAY 
+// ===========================================================================
+  
+#gornja_tabla {
+   //mtl "wall_room"
+   no_global_light  
+   refl 
+   lmap "fliper_room.tga"   
+   under   
+   layer 1  
+   ref_system 1
+}    
+  
+    
+// ===========================================================================
+// LCD DISPLAY
+// ===========================================================================
+  
+#LCD {
+   no_global_light 
+   basetex "lcd_0.tga" 
+   refl
+   uv_scale 0.75 -0.75     
+   ref_system 1
+}  
+   
+// ===========================================================================
+// BILBOARDS
+// ===========================================================================
+
+
+
+// ===========================================================================
+// SPECIAL OBJECTS 
+// ===========================================================================
+#translator_jail_resetke {  
+  mtl "metal_steelscrew" 
+  refl      
+} 
+
+
+
+#bank {  
+  refl
+} 
+
+#target_key_k {  
+  refl
+} 
+#target_key_e {  
+  refl
+} 
+#target_key_y {  
+  refl
+} 
+
+#target_bank_b {  
+  refl
+} 
+#target_bank_a {  
+  refl 
+} 
+#target_bank_n {  
+  refl
+} 
+ 
+#target_bank_k {  
+  refl
+} 
+
+   
+#BigLamp01 {  
+ basetex "lamp_white.tga"
+//  no_global_light
+} 
+
+#BigLamp02 {  
+ basetex "lamp_yellow.tga"
+//  no_global_light
+}
+
+#BigLamp03 {  
+ basetex "lamp_yellow.tga"
+//  no_global_light
+}
+
+#BigLamp04 {  
+ basetex "lamp_white.tga"
+//  no_global_light
+}
+
+
+
+#bank_windows {
+  basetex "bank_window.tga" 
+  mtl "glass_thin"     
+//  no_global_light      
+} 
+
+ 
+#wheel {
+ layer 0
+}   
+ 
+ 
+#rampaL_kraj01 { 
+ //mtl "glass_thin"   
+ trans  
+ basetex "rampa_L.tga"     
+} 
+
+#rampaD_kraj01 {
+ //mtl "glass_thin"   
+ trans  
+ basetex "rampa_R.tga"     
+} 
+
+
+#tubeL01 {
+ mtl "glass_thin"   
+ trans  
+ basetex "rampa_L.tga"     
+} 
+
+
+
+#tubeL02 {
+ mtl "glass_thin"   
+ trans  
+ basetex "rampa_L.tga"     
+} 
+
+#tubeR { 
+ mtl "glass_thin"   
+ trans  
+ basetex "rampa_R.tga"     
+}  
+  
+
+#rotator_rampbank_left { 
+ mtl "glass_thin"   
+ basetex "rampa_L.tga"     
+} 
+
+#rotator_rampbank_right {  
+ mtl "glass_thin"   
+ basetex "rampa_R.tga"     
+} 
+ 
+#rotator_centralramp { 
+   basetex "fliperfin11.tga"  
+   //no_zwrite   
+   layer 2         
+   blend 1
+   //under
+   //visible 0  
+} 
+
+#rotator_crvena_lampa { 
+   mtl "metal_steelscrew"    
+  //visible 0  
+} 
+#rotator_plava_lampa { 
+   mtl "metal_steelscrew"    
+  //visible 0  
+} 
+
+
+#rotator_seflock { 
+
+  parent "rotator_sef" 
+
+}  
+
+	 
+#rotator_sef { 
+
+  //mtl "metal_steelscrew"    
+  
+}   
+
+#wall_rampa_tunel_L { 
+//   mtl "metal_steelscrew"
+   basetex "fliperfin11.tga"     
+} 
+
+#wall_rampa_tunel_R { 
+//   mtl "metal_steelscrew"
+   basetex "fliperfin11.tga"      
+} 
+
+#rotator_rampa_tunel_L {
+   mtl "metal_steelscrew"
+}
+#rotator_rampa_tunel_R {
+   mtl "metal_steelscrew"
+
+}
+
+     
+// ===========================================================================
+// ROOM
+// ===========================================================================
+
+#wall_cube {
+  mtl "wall_room"
+  basetex "room.tga"   
+  lmap "fliper_room.tga"   
+ // no_ztest 
+  no_zwrite 
+  no_global_light   
+  under 
+  layer 0
+  ref_system -1
+} 
+
+#pod {
+   mtl "wall_room"
+  basetex "pod_plafon.tga"   
+  lmap "fliper_room.tga"   
+//  no_ztest 
+  no_zwrite 
+  no_global_light 
+  under
+  layer 0
+  ref_system -1
+}
+
+#wall_plafon { 
+  mtl "wall_room"
+  basetex "pod_plafon.tga"   
+  lmap "fliper_room.tga"   
+//  no_ztest 
+  no_zwrite 
+  no_global_light 
+  under
+  layer 0
+  ref_system -1
+}
+  
+// ===========================================================================
+// GROUPS
+// ===========================================================================
+ 
+
+#group_metal { 
+  mtl "metal_steelscrew"
+  //no_global_light  
+}
+
+#group_Torus { 
+  mtl "metal_steelscrew" 
+  //no_global_light  
+}
+
+#group_slower {  
+  mtl "metal_steelscrew"
+  under
+  layer 3 
+}
+
+#LED_49  { 
+ basetex "led.tga"     
+ trans    
+ no_zwrite  
+ no_global_light    
+}   
+
+#group_LED  { 
+  
+ //mtl "metal_bulb"  
+ //basetex "led.tga"      
+ no_global_light 
+ mtl "glass_thin"  
+ basetex "lamp_white.tga"  
+ trans    
+ no_zwrite  
+}   
+   
+
+#group_plasticni_stubici { 
+ basetex "rubber.tga"   
+}
+
+#group_stubic_plastika { 
+ basetex "fliperfin11.tga"  
+}  
+   
+ 
+#hole_targets {
+ visible 0
+}  
+#holes {
+ visible 0
+}  
+
+
+#wall_spinner {  
+  basetex "fliperfin11.tga"  
+  visible 1
+  trans
+  //layer 1
+} 
+ 
+#hole_hide { 
+  under 
+  no_zwrite
+  layer 2  
+} 
+
+#hole_sneak { 
+  under 
+  no_zwrite
+  layer 2   
+} 
+  
+#hole_bank {
+  under
+ // no_zwrite 
+  layer 2  
+}
+
+#hole_start {
+  under
+ // no_zwrite 
+  layer 2  
+}
+
+#hole_end {
+  under
+ // no_zwrite 
+  layer 2  
+}
+
+#group_hole_spinner { 
+  under 
+  no_zwrite
+  layer 3
+}  
+
+
+#group_rupe {
+  under 
+  no_zwrite
+  layer 3
+}   
+
+// pits 
+#group_pit {
+  under   
+  no_zwrite 
+  layer 4     
+}  
+   
+#group_down {
+  under   
+  no_zwrite 
+  layer 4     
+}    
+   
+   
+#sijalica_56 {
+   
+}
+   
+
+   
+#group_LAMP_WHEEL {   
+ mtl "glasslight_bluearrow" 
+// mtl "glasslight_whiteMattearrow" 
+ //no_zwrite
+ layer 1      
+}     
+     
+   
+#group_LAMP_BUMPER_LANE {   
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+   
+}  
+
+
+#LAMP_LEFT_LANE_1 {   
+ mtl "glasslight_yellowarrow" 
+}  
+#LAMP_LEFT_LANE_2 {   
+ mtl "glasslight_bluearrow" 
+}  
+#LAMP_RIGHT_LANE_1 {   
+ mtl "glasslight_bluearrow"  
+}  
+#LAMP_RIGHT_LANE_2 {      
+ mtl "glasslight_yellowarrow"   
+}  
+
+ 
+#group_LAMP_LEFT_LANE {   
+// mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1    
+
+}  
+
+#group_LAMP_RIGHT_LANE {     
+// mtl "glasslight_yellowarrow"   
+ no_zwrite
+ layer 1   
+
+}  
+
+
+#group_LAMP_BANK {    
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+
+}  
+
+
+#group_LAMP_LOCK {    
+ mtl "glasslight_bluearrow" 
+ no_zwrite
+ layer 1   
+
+}  
+
+
+#group_LAMP_START_MODE {    
+ mtl "glasslight_greenarrowY" 
+ layer 1    
+}  
+ 
+#group_LAMP_LITLOCK {    
+ mtl "glasslight_bluearrow" 
+ no_zwrite
+ layer 1   
+}  
+
+#group_LAMP_LEFT_LIGHT_LOCK {     
+ mtl "glasslight_bluearrow" 
+ no_zwrite
+ layer 1    
+
+}  
+
+#group_LAMP_RIGHT_LIGHT_LOCK {     
+ mtl "glasslight_bluearrow" 
+ no_zwrite
+ layer 1    
+
+}  
+
+
+#group_LAMP_BONUS {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+
+}  
+
+#group_LAMP_LEFT_DRAIN {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+
+}  
+
+#group_LAMP_RIGHT_DRAIN {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+  
+}  
+ 
+
+#group_LAMP_SHOT {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+
+}  
+ 
+
+#group_LAMP_KEY {     
+ mtl "glasslight_orangeDarrow"   
+ no_zwrite
+ layer 1   
+
+}  
+
+#LAMP_SHOOTAGAIN {     
+ mtl "glasslight_greenarrow"  
+  no_zwrite
+ layer 1   
+}  
+
+#LAMP_SUPERJACK {     
+ mtl "glasslight_whitearrow" 
+ no_zwrite
+ layer 1     
+  
+}  
+
+#LAMP_EXTRABALL {      
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+
+}   
+       
+#LAMP_Logo_B {      
+ mtl "glasslight_B" 
+ no_zwrite
+ layer 1   
+
+}
+
+#LAMP_Logo_I {      
+ mtl "glasslight_I" 
+ no_zwrite
+ layer 1
+}
+
+#LAMP_Logo_G {      
+ mtl "glasslight_G" 
+ no_zwrite
+ layer 1   
+
+}
+
+#LAMP_Logo_S {      
+ mtl "glasslight_S" 
+ no_zwrite
+ level1
+}
+
+#LAMP_Logo_C {      
+ mtl "glasslight_C" 
+ no_zwrite
+ layer 1   
+
+}
+
+#LAMP_Logo_O {      
+ mtl "glasslight_O" 
+ no_zwrite
+ layer 1   
+
+}
+
+#LAMP_Logo_R {      
+ mtl "glasslight_R" 
+ no_zwrite
+ layer 1   
+ 
+}
+  
+#LAMP_Logo_E {      
+ mtl "glasslight_E" 
+ no_zwrite
+ layer 1    
+}
+
+#LAMP_INSIDE_JOB {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_BREAK_AND_ENTRY {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+} 
+
+#LAMP_FIND_SNITCH {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#group_LAMP_MODE_DOWN {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#group_LAMP_MODE_UP {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_BREAK_OUT {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+}
+
+
+#LAMP_MODE_STATUS {     
+ mtl "glass_thin"   
+ basetex "lamp_yellow.tga"  
+ layer 1   
+}
+
+#LAMP_MULTIBALL_STATUS {      
+ mtl "glass_thin"   
+ basetex "lamp_red.tga"  
+ layer 1   
+}
+
+#group_LAMP_MINIMODE_STATUS {      
+ mtl "glass_thin"   
+ basetex "lamp_green.tga"  
+ layer 1    
+}
+
+ 
+#group_LAMP_MINIMODE {     
+// mtl "glasslight_bluearrow" 
+ mtl "glasslight_whitearrow" 
+ no_zwrite
+ layer 1   
+}
+
+
+
+#LAMP_VIP_HIJACK {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_GEAR_UP {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_CAR_THEFT {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_GET_THE_TEAM {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_SHOTING_PRACTICE {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_SPEED_DRIVING {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_TROUBLE {     
+ mtl "glasslight_orangeDarrow"   
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_BIG {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_SPECIAL {     
+ mtl "glasslight_redarrow"   
+ no_zwrite
+ layer 1   
+}
+
+#group_LAMP_LEFT_LOOP {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#group_LAMP_LEFT_RAMP {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#group_LAMP_RIGHT_RAMP {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#group_LAMP_RIGHT_LOOP {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+}
+
+
+#LAMP_MONEY {     
+ mtl "glasslight_greenarrowY" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_FORTUNE {     
+ mtl "glasslight_greenarrowY" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_FAME {     
+ mtl "glasslight_greenarrowY" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_50 {     
+ mtl "glasslight_greenarrowY" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_100 {     
+ mtl "glasslight_greenarrowY" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_500 {     
+ mtl "glasslight_greenarrowY" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_1M {     
+ mtl "glasslight_greenarrowY" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_2M {     
+ mtl "glasslight_greenarrowY" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_5M {     
+ mtl "glasslight_greenarrowY" 
+ no_zwrite
+ layer 1   
+}
+
+#group_LAMP_UNDERGROUND {     
+ mtl "glasslight_yellowarrow"  
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_LIGHTLOCK_WEST {     
+ mtl "glasslight_greenarrowY" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_EASTSTREET_LOCK {     
+ mtl "glasslight_greenarrowY" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_HOLD_JETS {     
+ mtl "glasslight_whitearrow" 
+ no_zwrite 
+ layer 1   
+}
+
+
+#group_LAMP_BUMPER_A {     
+ mtl "glasslight_greenarrowY" 
+ no_zwrite
+ layer 1   
+}
+
+#group_LAMP_BUMPER_B {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#group_LAMP_BUMPER_C {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_FAR_L {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_FAR_R {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1   
+}
+
+#LAMP_JACKPOT {     
+ mtl "glasslight_yellowarrow" 
+ no_zwrite
+ layer 1    
+ parent "rotator_centralramp"       
+}
+#LAMP_MULTIBALL {     
+ mtl "glasslight_orangeLarrow" 
+ no_zwrite
+ layer 1   
+ parent "rotator_centralramp"       
+
+}
+#LAMP_EXTRA {     
+ mtl "glasslight_redarrow" 
+ no_zwrite
+ layer 1   
+ parent "rotator_centralramp"             
+} 
+   
+
+
+
+//------------------------ALARM&SIREN------------------------------------
+
+#LampSiren {
+ mtl "glass_thin"   
+ basetex "lamp_red.tga"
+ trans 
+ layer 1
+ // visible 0  
+
+}  
+  
+#LampAlarm {
+ mtl "glass_thin"   
+ basetex "lamp_blue.tga" 
+ trans
+ layer 1 
+//  visible 0  
+     
+}   
+
+#LampSiren_inside {
+ //mtl "glass_thin"    
+ trans 
+ basetex "fliperfin11.tga" 
+ visible 0 
+} 
+ 
+#LampAlarm_inside {
+ //mtl "glass_thin"   
+ trans 
+ basetex "fliperfin11.tga" 
+ visible 0
+} 
+
+#BigLamp01 {
+ mtl "glass_thin"   
+ basetex "lamp_yellow.tga"
+ trans
+ layer 1
+}
+
+#BigLamp02 { 
+ mtl "glass_thin"   
+ basetex "lamp_yellow.tga"
+ trans
+ layer 1
+}
+
+#BigLamp03 {
+ mtl "glass_thin"   
+ basetex "lamp_yellow.tga"
+ trans
+ layer 1
+}
+
+#BigLamp04 {
+ mtl "glass_thin"   
+ basetex "lamp_white.tga" 
+ trans
+ layer 1
+}
+
+#case {
+   mtl "glass_thin" 
+   no_global_light  
+   lmap "fliper_room.tga"                 
+   basetex "glass.tga"    
+   trans
+   visible 0
+   ref_system -1  
+}  
